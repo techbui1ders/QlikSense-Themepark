@@ -4,7 +4,7 @@ A Qlik Sense extension that integrates over 80 color palettes and themes to get 
 
 ## Installation
 
-1. Download the QVF file and place it into your default Qlik Sense extension folder
+1. Place the 'themepark' folder into your default Qlik Sense extension folder
 2. Open Qlik Sensem select and applications and go into your settings
 3. Change the 'App theme' from Qlik Classic to your favorite theme
 

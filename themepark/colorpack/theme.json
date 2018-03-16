@@ -1,0 +1,989 @@
+{
+    "_inherit": true,
+    "palettes": {
+        "data": [{
+                "name": "Piratepal",
+                "translation": "Scuba (4)",
+                "propertyValue": "qual-yarr-scuba",
+                "type": "row",
+                "scale": [
+                    "#0D4157",
+                    "#E9602C",
+                    "#A5DBEF",
+                    "#DDD9D7"
+                ]
+            },
+            {
+                "name": "Plotly",
+                "translation": "Hot (4)",
+                "propertyValue": "div-p-hot",
+                "type": "row",
+                "scale": [
+                    "#000000",
+                    "#E60000",
+                    "#FFD200",
+                    "#FFFFFF"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Google (4)",
+                "propertyValue": "qual-yarr-google",
+                "type": "row",
+                "scale": [
+                    "#3D79F3",
+                    "#E6352F",
+                    "#F9B90A",
+                    "#34A74B"
+
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "compote (4)",
+                "propertyValue": "qual-yarr-compote",
+                "type": "row",
+                "scale": [
+                    "#893E56",
+                    "#4E5A83",
+                    "#BBACD1",
+                    "#E1E1E1"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "fall (4)",
+                "propertyValue": "qual-yarr-fall",
+                "type": "row",
+                "scale": [
+                    "#433C4D",
+                    "#7C1939",
+                    "#F2BC20",
+                    "#9ACDF7"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Pebble (4)",
+                "propertyValue": "qual-yarr-pebble",
+                "type": "row",
+                "scale": [
+                    "#3A3540",
+                    "#897A87",
+                    "#D6BBA6",
+                    "#F0E4E8"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Scholar (4)",
+                "propertyValue": "qual-yarr-scholar",
+                "type": "row",
+                "scale": [
+                    "#2B3E56",
+                    "#CDA725",
+                    "#C5CBD3",
+                    "#F1F1E7"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Espresso (5)",
+                "propertyValue": "qual-yarr-espresso",
+                "type": "row",
+                "scale": [
+                    "#2366C0",
+                    "#E9D738",
+                    "#B91226",
+                    "#A3DA4B",
+                    "#FF6435"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Brave (5)",
+                "propertyValue": "qual-yarr-brave",
+                "type": "row",
+                "scale": [
+                    "#A8643B",
+                    "#B65B23",
+                    "#94220E",
+                    "#272D17",
+                    "#202126"
+
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Bugs (5)",
+                "propertyValue": "qual-yarr-bugs",
+                "type": "row",
+                "scale": [
+                    "#667840",
+                    "#BAD6A8",
+                    "#85C7C1",
+                    "#A59A6B",
+                    "#67553F"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Cars (5)",
+                "propertyValue": "qual-yarr-cars",
+                "type": "row",
+                "scale": [
+                    "#E7B08F",
+                    "#884C49",
+                    "#E0363A",
+                    "#6A1D1A",
+                    "#9DDAE6"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Nemo (5)",
+                "propertyValue": "qual-yarr-nemo",
+                "type": "row",
+                "scale": [
+                    "#FBCF35",
+                    "#ED4C1C",
+                    "#9C7E70",
+                    "#5AC2F1",
+                    "#11776C"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Rat (5)",
+                "propertyValue": "qual-yarr-rat",
+                "type": "row",
+                "scale": [
+                    "#9F4D23",
+                    "#922B49",
+                    "#B21D13",
+                    "#7F8624",
+                    "#F19C1F"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Up (5)",
+                "propertyValue": "qual-yarr-up",
+                "type": "row",
+                "scale": [
+                    "#5F8CF4",
+                    "#DCD6FC",
+                    "#E27A48",
+                    "#605646",
+                    "#434159"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Emo (5)",
+                "propertyValue": "qual-yarr-emo",
+                "type": "row",
+                "scale": [
+                    "#556270",
+                    "#4ECDC4",
+                    "#C7F464",
+                    "#FF6B6B",
+                    "#C44D58"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Pancake (5)",
+                "propertyValue": "qual-yarr-pancake",
+                "type": "row",
+                "scale": [
+                    "#594F4F",
+                    "#547980",
+                    "#45ADA8",
+                    "#9DE0AD",
+                    "#E5FCC2"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Lubitel (5)",
+                "propertyValue": "qual-yarr-lubitel",
+                "type": "row",
+                "scale": [
+                    "#373A45",
+                    "#C2C2C2",
+                    "#B3986D",
+                    "#78241D",
+                    "#5E3E35"
+                ]
+            },
+            {
+                "name": "Plotly",
+                "translation": "Portland (5)",
+                "propertyValue": "div-p-portland",
+                "type": "row",
+                "scale": [
+                    "#0C3383",
+                    "#0A88BA",
+                    "#F2D338",
+                    "#F28F38",
+                    "#D91E1E"
+                ]
+            },
+            {
+                "name": "Plotly",
+                "translation": "Blackbody (5)",
+                "propertyValue": "div-p-blackbody",
+                "type": "row",
+                "scale": [
+                    "#000000",
+                    "#E60000",
+                    "#E6D200",
+                    "#FFFFFF",
+                    "#A0C8FF"
+                ]
+            },
+            {
+                "name": "Plotly",
+                "translation": "Jet (6)",
+                "propertyValue": "div-p-jet",
+                "type": "row",
+                "scale": [
+                    "#000083",
+                    "#003CAA",
+                    "#05FFFF",
+                    "#FFFF00",
+                    "#FA0000",
+                    "#800000"
+                ]
+            },
+            {
+                "name": "Plotly",
+                "translation": "Earth (6)",
+                "propertyValue": "div-p-earth",
+                "type": "row",
+                "scale": [
+                    "#000082",
+                    "#00B4B4",
+                    "#28D228",
+                    "#E6E632",
+                    "#784614",
+                    "#FFFFFF"
+                ]
+            },
+            {
+                "name": "Plotly",
+                "translation": "Electric (6)",
+                "propertyValue": "div-p-electric",
+                "type": "row",
+                "scale": [
+                    "#000000",
+                    "#1E0064",
+                    "#780064",
+                    "#A05A00",
+                    "#E6C800",
+                    "#FFFADC"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Decision (6)",
+                "propertyValue": "qual-yarr-decision",
+                "type": "row",
+                "scale": [
+                    "#D57A6D",
+                    "#E8B762",
+                    "#9CCDDF",
+                    "#525052",
+                    "#E6CEAF",
+                    "#BA9570"
+
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "SouthPark (6)",
+                "propertyValue": "qual-yarr-southpark",
+                "type": "row",
+                "scale": [
+                    "#2F86FF",
+                    "#EBAB16",
+                    "#DE0012",
+                    "#22C408",
+                    "#FECDAA",
+                    "#F14809"
+
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "EvilDead (6)",
+                "propertyValue": "qual-yarr-evildead",
+                "type": "row",
+                "scale": [
+                    "#19180D",
+                    "#212510",
+                    "#2E100B",
+                    "#392E12",
+                    "#57512B",
+                    "#968E4C"
+
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "AppleTV (6)",
+                "propertyValue": "qual-yarr-appletv",
+                "type": "row",
+                "scale": [
+                    "#5FB233",
+                    "#6A7F93",
+                    "#F57206",
+                    "#EB0F13",
+                    "#8F2F8B",
+                    "#1396DB"
+
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "UsualSuspects (7)",
+                "propertyValue": "qual-yarr-usualsuspects",
+                "type": "row",
+                "scale": [
+                    "#323337",
+                    "#534C53",
+                    "#3F516A",
+                    "#9B6659",
+                    "#E83B41",
+                    "#9F9CA2",
+                    "#EAAE9D"
+
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "OhBrother (7)",
+                "propertyValue": "qual-yarr-ohbrother",
+                "type": "row",
+                "scale": [
+                    "#1A0F0A",
+                    "#3D291A",
+                    "#715639",
+                    "#747D6D",
+                    "#AD9D0B",
+                    "#94C4DF",
+                    "#E6DDA8"
+
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "iPod (7)",
+                "propertyValue": "qual-yarr-ipod",
+                "type": "row",
+                "scale": [
+                    "#D7D7D7",
+                    "#F3AEAF",
+                    "#AEADB0",
+                    "#9ED9BF",
+                    "#5CCBEB",
+                    "#DEEB61",
+                    "#F2F2F2"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Eternal (7)",
+                "propertyValue": "qual-yarr-eternal",
+                "type": "row",
+                "scale": [
+                    "#170C2E",
+                    "#751029",
+                    "#52194C",
+                    "#473B75",
+                    "#4D709C",
+                    "#6F766B",
+                    "#92ADC4"
+                ]
+            },
+            {
+                "name": "Colorbrewer",
+                "translation": "Accent (8)",
+                "propertyValue": "qual-cb-accent",
+                "type": "pyramid",
+                "scale": [
+                    ["#7fc97f", "#beaed4", "#fdc086"],
+                    ["#7fc97f", "#beaed4", "#fdc086", "#ffff99"],
+                    ["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0"],
+                    ["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0", "#f0027f"],
+                    ["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0", "#f0027f", "#bf5b17"],
+                    ["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0", "#f0027f", "#bf5b17", "#666666"]
+                ]
+            },
+            {
+                "name": "Colorbrewer",
+                "translation": "Dark2 (8)",
+                "propertyValue": "qual-cb-dark2",
+                "type": "pyramid",
+                "scale": [
+                    ["#1b9e77", "#d95f02", "#7570b3"],
+                    ["#1b9e77", "#d95f02", "#7570b3", "#e7298a"],
+                    ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e"],
+                    ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02"],
+                    ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d"],
+                    ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d", "#666666"]
+                ]
+            },
+            {
+                "name": "Colorbrewer",
+                "translation": "Pastel2 (8)",
+                "propertyValue": "qual-cb-pastel2",
+                "type": "pyramid",
+                "scale": [
+                    ["#b3e2cd", "#fdcdac", "#cbd5e8"],
+                    ["#b3e2cd", "#fdcdac", "#cbd5e8", "#f4cae4"],
+                    ["#b3e2cd", "#fdcdac", "#cbd5e8", "#f4cae4", "#e6f5c9"],
+                    ["#b3e2cd", "#fdcdac", "#cbd5e8", "#f4cae4", "#e6f5c9", "#fff2ae"],
+                    ["#b3e2cd", "#fdcdac", "#cbd5e8", "#f4cae4", "#e6f5c9", "#fff2ae", "#f1e2cc"],
+                    ["#b3e2cd", "#fdcdac", "#cbd5e8", "#f4cae4", "#e6f5c9", "#fff2ae", "#f1e2cc", "#cccccc"]
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "XMen (8)",
+                "propertyValue": "qual-yarr-xmen",
+                "type": "row",
+                "scale": [
+                    "#026CCB",
+                    "#F51E02",
+                    "#05B102",
+                    "#FB9F53",
+                    "#9B9B9B",
+                    "#FB82BE",
+                    "#BA6222",
+                    "#EEC229"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Pony (9)",
+                "propertyValue": "qual-yarr-pony",
+                "type": "row",
+                "scale": [
+                    "#EB5291",
+                    "#FBBB68",
+                    "#F5BACF",
+                    "#9DDAF5",
+                    "#6351A0",
+                    "#ECF1F4",
+                    "#FEF79E",
+                    "#1794CE",
+                    "#972C8D"
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Info (9)",
+                "propertyValue": "qual-yarr-info",
+                "type": "row",
+                "scale": [
+                    "#E7695D",
+                    "#6B8993",
+                    "#F6F0D4",
+                    "#95CE8A",
+                    "#D2D2D2",
+                    "#94D4D4",
+                    "#969696",
+                    "#F1F3E8",
+                    "#88775F"
+                ]
+            },
+            {
+                "name": "Set1",
+                "translation": "Set1 (9)",
+                "propertyValue": "qual-set1",
+                "type": "pyramid",
+                "scale": [
+                    ["#e41a1c", "#377eb8", "#4daf4a"],
+                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3"],
+                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00"],
+                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33"],
+                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628"],
+                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628", "#f781bf"],
+                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628", "#f781bf", "#999999"]
+                ]
+            },
+            {
+                "name": "Colorbrewer",
+                "translation": "Pastel1 (9)",
+                "propertyValue": "qual-cb-pastel1",
+                "type": "pyramid",
+                "scale": [
+                    ["#fbb4ae", "#b3cde3", "#ccebc5"],
+                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4"],
+                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6"],
+                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc"],
+                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc", "#e5d8bd"],
+                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc", "#e5d8bd", "#fddaec"],
+                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc", "#e5d8bd", "#fddaec", "#f2f2f2"]
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Basel (10)",
+                "propertyValue": "qual-yarr-basel",
+                "type": "row",
+                "scale": [
+                    "#0C5BB0",
+                    "#EE0011",
+                    "#15983D",
+                    "#EC579A",
+                    "#FA6B09",
+                    "#149BED",
+                    "#A1C720",
+                    "#FEC10B",
+                    "#16A08C",
+                    "#9A703E"
+                ]
+            },
+            {
+                "name": "Colorbrewer",
+                "translation": "Paired (12)",
+                "propertyValue": "qual-cb-paired",
+                "type": "pyramid",
+                "scale": [
+                    ["#a6cee3", "#1f78b4", "#b2df8a"],
+                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c"],
+                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99"],
+                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c"],
+                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f"],
+                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00"],
+                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6"],
+                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a"],
+                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#ffff99"],
+                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#ffff99", "#b15928"]
+                ]
+            },
+            {
+                "name": "Piratepal",
+                "translation": "Info2 (14)",
+                "propertyValue": "qual-yarr-info2",
+                "type": "row",
+                "scale": [
+                    "#006A40",
+                    "#F08892",
+                    "#75B41E",
+                    "#95828D",
+                    "#708C98",
+                    "#8AB8CF",
+                    "#007E7F",
+                    "#358359",
+                    "#8BA1BC",
+                    "#5A5895",
+                    "#F2990C",
+                    "#5A5895",
+                    "#E5BA3A",
+                    "#D86C4F"
+                ]
+            }
+        ],
+        "ui": [{
+            "name": "Palette",
+            "colors": [
+                "#cccccc",
+                "#aaaaaa",
+                "#111111",
+                "#999999",
+                "#acacac",
+                "#dddddd",
+                "#eeeeee",
+                "#ffffff",
+                "#000000"
+            ]
+        }]
+    },
+    "scales": [{
+            "name": "Viridis",
+            "translation": "Viridis",
+            "propertyValue": "seq-v-viridis",
+            "type": "class",
+            "scale": [
+                "#440154", "#440256", "#450457", "#450559", "#46075a", "#46085c", "#460a5d", "#460b5e", "#470d60", "#470e61", "#471063", "#471164", "#471365", "#481467", "#481668", "#481769", "#48186a", "#481a6c", "#481b6d", "#481c6e", "#481d6f", "#481f70", "#482071", "#482173", "#482374", "#482475", "#482576", "#482677", "#482878", "#482979", "#472a7a", "#472c7a", "#472d7b", "#472e7c", "#472f7d", "#46307e", "#46327e", "#46337f", "#463480", "#453581", "#453781", "#453882", "#443983", "#443a83", "#443b84", "#433d84", "#433e85", "#423f85", "#424086", "#424186", "#414287", "#414487", "#404588", "#404688", "#3f4788", "#3f4889", "#3e4989", "#3e4a89", "#3e4c8a", "#3d4d8a", "#3d4e8a", "#3c4f8a", "#3c508b", "#3b518b", "#3b528b", "#3a538b", "#3a548c", "#39558c", "#39568c", "#38588c", "#38598c", "#375a8c", "#375b8d", "#365c8d", "#365d8d", "#355e8d", "#355f8d", "#34608d", "#34618d", "#33628d", "#33638d", "#32648e", "#32658e", "#31668e", "#31678e", "#31688e", "#30698e", "#306a8e", "#2f6b8e", "#2f6c8e", "#2e6d8e", "#2e6e8e", "#2e6f8e", "#2d708e", "#2d718e", "#2c718e", "#2c728e", "#2c738e", "#2b748e", "#2b758e", "#2a768e", "#2a778e", "#2a788e", "#29798e", "#297a8e", "#297b8e", "#287c8e", "#287d8e", "#277e8e", "#277f8e", "#27808e", "#26818e", "#26828e", "#26828e", "#25838e", "#25848e", "#25858e", "#24868e", "#24878e", "#23888e", "#23898e", "#238a8d", "#228b8d", "#228c8d", "#228d8d", "#218e8d", "#218f8d", "#21908d", "#21918c", "#20928c", "#20928c", "#20938c", "#1f948c", "#1f958b", "#1f968b", "#1f978b", "#1f988b", "#1f998a", "#1f9a8a", "#1e9b8a", "#1e9c89", "#1e9d89", "#1f9e89", "#1f9f88", "#1fa088", "#1fa188", "#1fa187", "#1fa287", "#20a386", "#20a486", "#21a585", "#21a685", "#22a785", "#22a884", "#23a983", "#24aa83", "#25ab82", "#25ac82", "#26ad81", "#27ad81", "#28ae80", "#29af7f", "#2ab07f", "#2cb17e", "#2db27d", "#2eb37c", "#2fb47c", "#31b57b", "#32b67a", "#34b679", "#35b779", "#37b878", "#38b977", "#3aba76", "#3bbb75", "#3dbc74", "#3fbc73", "#40bd72", "#42be71", "#44bf70", "#46c06f", "#48c16e", "#4ac16d", "#4cc26c", "#4ec36b", "#50c46a", "#52c569", "#54c568", "#56c667", "#58c765", "#5ac864", "#5cc863", "#5ec962", "#60ca60", "#63cb5f", "#65cb5e", "#67cc5c", "#69cd5b", "#6ccd5a", "#6ece58", "#70cf57", "#73d056", "#75d054", "#77d153", "#7ad151", "#7cd250", "#7fd34e", "#81d34d", "#84d44b", "#86d549", "#89d548", "#8bd646", "#8ed645", "#90d743", "#93d741", "#95d840", "#98d83e", "#9bd93c", "#9dd93b", "#a0da39", "#a2da37", "#a5db36", "#a8db34", "#aadc32", "#addc30", "#b0dd2f", "#b2dd2d", "#b5de2b", "#b8de29", "#bade28", "#bddf26", "#c0df25", "#c2df23", "#c5e021", "#c8e020", "#cae11f", "#cde11d", "#d0e11c", "#d2e21b", "#d5e21a", "#d8e219", "#dae319", "#dde318", "#dfe318", "#e2e418", "#e5e419", "#e7e419", "#eae51a", "#ece51b", "#efe51c", "#f1e51d", "#f4e61e", "#f6e620", "#f8e621", "#fbe723", "#fde725"
+            ]
+        },
+        {
+            "name": "Viridis",
+            "translation": "Plasma",
+            "propertyValue": "seq-v-plasma",
+            "type": "class",
+            "scale": [
+                "#0d0887", "#100788", "#130789", "#16078a", "#19068c", "#1b068d", "#1d068e", "#20068f", "#220690", "#240691", "#260591", "#280592", "#2a0593", "#2c0594", "#2e0595", "#2f0596", "#310597", "#330597", "#350498", "#370499", "#38049a", "#3a049a", "#3c049b", "#3e049c", "#3f049c", "#41049d", "#43039e", "#44039e", "#46039f", "#48039f", "#4903a0", "#4b03a1", "#4c02a1", "#4e02a2", "#5002a2", "#5102a3", "#5302a3", "#5502a4", "#5601a4", "#5801a4", "#5901a5", "#5b01a5", "#5c01a6", "#5e01a6", "#6001a6", "#6100a7", "#6300a7", "#6400a7", "#6600a7", "#6700a8", "#6900a8", "#6a00a8", "#6c00a8", "#6e00a8", "#6f00a8", "#7100a8", "#7201a8", "#7401a8", "#7501a8", "#7701a8", "#7801a8", "#7a02a8", "#7b02a8", "#7d03a8", "#7e03a8", "#8004a8", "#8104a7", "#8305a7", "#8405a7", "#8606a6", "#8707a6", "#8808a6", "#8a09a5", "#8b0aa5", "#8d0ba5", "#8e0ca4", "#8f0da4", "#910ea3", "#920fa3", "#9410a2", "#9511a1", "#9613a1", "#9814a0", "#99159f", "#9a169f", "#9c179e", "#9d189d", "#9e199d", "#a01a9c", "#a11b9b", "#a21d9a", "#a31e9a", "#a51f99", "#a62098", "#a72197", "#a82296", "#aa2395", "#ab2494", "#ac2694", "#ad2793", "#ae2892", "#b02991", "#b12a90", "#b22b8f", "#b32c8e", "#b42e8d", "#b52f8c", "#b6308b", "#b7318a", "#b83289", "#ba3388", "#bb3488", "#bc3587", "#bd3786", "#be3885", "#bf3984", "#c03a83", "#c13b82", "#c23c81", "#c33d80", "#c43e7f", "#c5407e", "#c6417d", "#c7427c", "#c8437b", "#c9447a", "#ca457a", "#cb4679", "#cc4778", "#cc4977", "#cd4a76", "#ce4b75", "#cf4c74", "#d04d73", "#d14e72", "#d24f71", "#d35171", "#d45270", "#d5536f", "#d5546e", "#d6556d", "#d7566c", "#d8576b", "#d9586a", "#da5a6a", "#da5b69", "#db5c68", "#dc5d67", "#dd5e66", "#de5f65", "#de6164", "#df6263", "#e06363", "#e16462", "#e26561", "#e26660", "#e3685f", "#e4695e", "#e56a5d", "#e56b5d", "#e66c5c", "#e76e5b", "#e76f5a", "#e87059", "#e97158", "#e97257", "#ea7457", "#eb7556", "#eb7655", "#ec7754", "#ed7953", "#ed7a52", "#ee7b51", "#ef7c51", "#ef7e50", "#f07f4f", "#f0804e", "#f1814d", "#f1834c", "#f2844b", "#f3854b", "#f3874a", "#f48849", "#f48948", "#f58b47", "#f58c46", "#f68d45", "#f68f44", "#f79044", "#f79143", "#f79342", "#f89441", "#f89540", "#f9973f", "#f9983e", "#f99a3e", "#fa9b3d", "#fa9c3c", "#fa9e3b", "#fb9f3a", "#fba139", "#fba238", "#fca338", "#fca537", "#fca636", "#fca835", "#fca934", "#fdab33", "#fdac33", "#fdae32", "#fdaf31", "#fdb130", "#fdb22f", "#fdb42f", "#fdb52e", "#feb72d", "#feb82c", "#feba2c", "#febb2b", "#febd2a", "#febe2a", "#fec029", "#fdc229", "#fdc328", "#fdc527", "#fdc627", "#fdc827", "#fdca26", "#fdcb26", "#fccd25", "#fcce25", "#fcd025", "#fcd225", "#fbd324", "#fbd524", "#fbd724", "#fad824", "#fada24", "#f9dc24", "#f9dd25", "#f8df25", "#f8e125", "#f7e225", "#f7e425", "#f6e626", "#f6e826", "#f5e926", "#f5eb27", "#f4ed27", "#f3ee27", "#f3f027", "#f2f227", "#f1f426", "#f1f525", "#f0f724", "#f0f921"
+            ]
+        },
+        {
+            "name": "Viridis",
+            "translation": "Magma",
+            "propertyValue": "seq-v-magma",
+            "type": "class",
+            "scale": [
+                "#000004", "#010005", "#010106", "#010108", "#020109", "#02020b", "#02020d", "#03030f", "#030312", "#040414", "#050416", "#060518", "#06051a", "#07061c", "#08071e", "#090720", "#0a0822", "#0b0924", "#0c0926", "#0d0a29", "#0e0b2b", "#100b2d", "#110c2f", "#120d31", "#130d34", "#140e36", "#150e38", "#160f3b", "#180f3d", "#19103f", "#1a1042", "#1c1044", "#1d1147", "#1e1149", "#20114b", "#21114e", "#221150", "#241253", "#251255", "#271258", "#29115a", "#2a115c", "#2c115f", "#2d1161", "#2f1163", "#311165", "#331067", "#341069", "#36106b", "#38106c", "#390f6e", "#3b0f70", "#3d0f71", "#3f0f72", "#400f74", "#420f75", "#440f76", "#451077", "#471078", "#491078", "#4a1079", "#4c117a", "#4e117b", "#4f127b", "#51127c", "#52137c", "#54137d", "#56147d", "#57157e", "#59157e", "#5a167e", "#5c167f", "#5d177f", "#5f187f", "#601880", "#621980", "#641a80", "#651a80", "#671b80", "#681c81", "#6a1c81", "#6b1d81", "#6d1d81", "#6e1e81", "#701f81", "#721f81", "#732081", "#752181", "#762181", "#782281", "#792282", "#7b2382", "#7c2382", "#7e2482", "#802582", "#812581", "#832681", "#842681", "#862781", "#882781", "#892881", "#8b2981", "#8c2981", "#8e2a81", "#902a81", "#912b81", "#932b80", "#942c80", "#962c80", "#982d80", "#992d80", "#9b2e7f", "#9c2e7f", "#9e2f7f", "#a02f7f", "#a1307e", "#a3307e", "#a5317e", "#a6317d", "#a8327d", "#aa337d", "#ab337c", "#ad347c", "#ae347b", "#b0357b", "#b2357b", "#b3367a", "#b5367a", "#b73779", "#b83779", "#ba3878", "#bc3978", "#bd3977", "#bf3a77", "#c03a76", "#c23b75", "#c43c75", "#c53c74", "#c73d73", "#c83e73", "#ca3e72", "#cc3f71", "#cd4071", "#cf4070", "#d0416f", "#d2426f", "#d3436e", "#d5446d", "#d6456c", "#d8456c", "#d9466b", "#db476a", "#dc4869", "#de4968", "#df4a68", "#e04c67", "#e24d66", "#e34e65", "#e44f64", "#e55064", "#e75263", "#e85362", "#e95462", "#ea5661", "#eb5760", "#ec5860", "#ed5a5f", "#ee5b5e", "#ef5d5e", "#f05f5e", "#f1605d", "#f2625d", "#f2645c", "#f3655c", "#f4675c", "#f4695c", "#f56b5c", "#f66c5c", "#f66e5c", "#f7705c", "#f7725c", "#f8745c", "#f8765c", "#f9785d", "#f9795d", "#f97b5d", "#fa7d5e", "#fa7f5e", "#fa815f", "#fb835f", "#fb8560", "#fb8761", "#fc8961", "#fc8a62", "#fc8c63", "#fc8e64", "#fc9065", "#fd9266", "#fd9467", "#fd9668", "#fd9869", "#fd9a6a", "#fd9b6b", "#fe9d6c", "#fe9f6d", "#fea16e", "#fea36f", "#fea571", "#fea772", "#fea973", "#feaa74", "#feac76", "#feae77", "#feb078", "#feb27a", "#feb47b", "#feb67c", "#feb77e", "#feb97f", "#febb81", "#febd82", "#febf84", "#fec185", "#fec287", "#fec488", "#fec68a", "#fec88c", "#feca8d", "#fecc8f", "#fecd90", "#fecf92", "#fed194", "#fed395", "#fed597", "#fed799", "#fed89a", "#fdda9c", "#fddc9e", "#fddea0", "#fde0a1", "#fde2a3", "#fde3a5", "#fde5a7", "#fde7a9", "#fde9aa", "#fdebac", "#fcecae", "#fceeb0", "#fcf0b2", "#fcf2b4", "#fcf4b6", "#fcf6b8", "#fcf7b9", "#fcf9bb", "#fcfbbd", "#fcfdbf"
+            ]
+        },
+        {
+            "name": "Viridis",
+            "translation": "Inferno",
+            "propertyValue": "seq-v-inferno",
+            "type": "class",
+            "scale": [
+                "#000004", "#010005", "#010106", "#010108", "#02010a", "#02020c", "#02020e", "#030210", "#040312", "#040314", "#050417", "#060419", "#07051b", "#08051d", "#09061f", "#0a0722", "#0b0724", "#0c0826", "#0d0829", "#0e092b", "#10092d", "#110a30", "#120a32", "#140b34", "#150b37", "#160b39", "#180c3c", "#190c3e", "#1b0c41", "#1c0c43", "#1e0c45", "#1f0c48", "#210c4a", "#230c4c", "#240c4f", "#260c51", "#280b53", "#290b55", "#2b0b57", "#2d0b59", "#2f0a5b", "#310a5c", "#320a5e", "#340a5f", "#360961", "#380962", "#390963", "#3b0964", "#3d0965", "#3e0966", "#400a67", "#420a68", "#440a68", "#450a69", "#470b6a", "#490b6a", "#4a0c6b", "#4c0c6b", "#4d0d6c", "#4f0d6c", "#510e6c", "#520e6d", "#540f6d", "#550f6d", "#57106e", "#59106e", "#5a116e", "#5c126e", "#5d126e", "#5f136e", "#61136e", "#62146e", "#64156e", "#65156e", "#67166e", "#69166e", "#6a176e", "#6c186e", "#6d186e", "#6f196e", "#71196e", "#721a6e", "#741a6e", "#751b6e", "#771c6d", "#781c6d", "#7a1d6d", "#7c1d6d", "#7d1e6d", "#7f1e6c", "#801f6c", "#82206c", "#84206b", "#85216b", "#87216b", "#88226a", "#8a226a", "#8c2369", "#8d2369", "#8f2469", "#902568", "#922568", "#932667", "#952667", "#972766", "#982766", "#9a2865", "#9b2964", "#9d2964", "#9f2a63", "#a02a63", "#a22b62", "#a32c61", "#a52c60", "#a62d60", "#a82e5f", "#a92e5e", "#ab2f5e", "#ad305d", "#ae305c", "#b0315b", "#b1325a", "#b3325a", "#b43359", "#b63458", "#b73557", "#b93556", "#ba3655", "#bc3754", "#bd3853", "#bf3952", "#c03a51", "#c13a50", "#c33b4f", "#c43c4e", "#c63d4d", "#c73e4c", "#c83f4b", "#ca404a", "#cb4149", "#cc4248", "#ce4347", "#cf4446", "#d04545", "#d24644", "#d34743", "#d44842", "#d54a41", "#d74b3f", "#d84c3e", "#d94d3d", "#da4e3c", "#db503b", "#dd513a", "#de5238", "#df5337", "#e05536", "#e15635", "#e25734", "#e35933", "#e45a31", "#e55c30", "#e65d2f", "#e75e2e", "#e8602d", "#e9612b", "#ea632a", "#eb6429", "#eb6628", "#ec6726", "#ed6925", "#ee6a24", "#ef6c23", "#ef6e21", "#f06f20", "#f1711f", "#f1731d", "#f2741c", "#f3761b", "#f37819", "#f47918", "#f57b17", "#f57d15", "#f67e14", "#f68013", "#f78212", "#f78410", "#f8850f", "#f8870e", "#f8890c", "#f98b0b", "#f98c0a", "#f98e09", "#fa9008", "#fa9207", "#fa9407", "#fb9606", "#fb9706", "#fb9906", "#fb9b06", "#fb9d07", "#fc9f07", "#fca108", "#fca309", "#fca50a", "#fca60c", "#fca80d", "#fcaa0f", "#fcac11", "#fcae12", "#fcb014", "#fcb216", "#fcb418", "#fbb61a", "#fbb81d", "#fbba1f", "#fbbc21", "#fbbe23", "#fac026", "#fac228", "#fac42a", "#fac62d", "#f9c72f", "#f9c932", "#f9cb35", "#f8cd37", "#f8cf3a", "#f7d13d", "#f7d340", "#f6d543", "#f6d746", "#f5d949", "#f5db4c", "#f4dd4f", "#f4df53", "#f4e156", "#f3e35a", "#f3e55d", "#f2e661", "#f2e865", "#f2ea69", "#f1ec6d", "#f1ed71", "#f1ef75", "#f1f179", "#f2f27d", "#f2f482", "#f3f586", "#f3f68a", "#f4f88e", "#f5f992", "#f6fa96", "#f8fb9a", "#f9fc9d", "#fafda1", "#fcffa4"
+            ]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Pmgnt",
+            "propertyValue": "seq-c-Pmgnt",
+            "type": "gradient",
+            "scale": ["#F761A1", "#8C1BAB"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Lime",
+            "propertyValue": "seq-c-lime",
+            "type": "gradient",
+            "scale": ["#81FBB8", "#28C76F"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Plum",
+            "propertyValue": "seq-c-plum",
+            "type": "gradient",
+            "scale": ["#CE9FFC", "#7367F0"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Apple",
+            "propertyValue": "seq-c-apple",
+            "type": "gradient",
+            "scale": ["#A0FE65", "#FA016D"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Peach",
+            "propertyValue": "seq-c-peach",
+            "type": "gradient",
+            "scale": ["#FFF6B7", "#F6416C"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Orange",
+            "propertyValue": "seq-c-orange",
+            "type": "gradient",
+            "scale": ["#FDD819", "#E80505"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Breeze",
+            "propertyValue": "seq-c-breeze",
+            "type": "gradient",
+            "scale": ["#5EFCE8", "#736EFE"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Ocean",
+            "propertyValue": "seq-c-ocean",
+            "type": "gradient",
+            "scale": ["#52E5E7", "#130CB7"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Sunset",
+            "propertyValue": "seq-c-sunset",
+            "type": "gradient",
+            "scale": ["#FFD26F", "#3677FF"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Spring",
+            "propertyValue": "seq-c-spring",
+            "type": "gradient",
+            "scale": ["#FFDB01", "#58CFFB"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Fall",
+            "propertyValue": "seq-c-fall",
+            "type": "gradient",
+            "scale": ["#F05F57", "#360940"]
+        },
+        {
+            "name": "Coolhue",
+            "translation": "Winter",
+            "propertyValue": "seq-c-winter",
+            "type": "gradient",
+            "scale": ["#81FFEF", "#F067B4"]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "YlGn (9)",
+            "propertyValue": "qual-cb-ylgn",
+            "type": "class",
+            "scale": [
+                "#ffffe5", "#f7fcb9", "#d9f0a3", "#addd8e", "#78c679", "#41ab5d", "#238443", "#006837", "#004529"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "YlGnBu (9)",
+            "propertyValue": "qual-cb-ylgnbu",
+            "type": "class",
+            "scale": [
+                "#ffffd9", "#edf8b1", "#c7e9b4", "#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#253494", "#081d58"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "GnBu (9)",
+            "propertyValue": "qual-cb-gnbu",
+            "type": "class",
+            "scale": [
+                "#f7fcf0", "#e0f3db", "#ccebc5", "#a8ddb5", "#7bccc4", "#4eb3d3", "#2b8cbe", "#0868ac", "#084081"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "BuGn (9)",
+            "propertyValue": "qual-cb-bugn",
+            "type": "class",
+            "scale": [
+                "#f7fcfd", "#e5f5f9", "#ccece6", "#99d8c9", "#66c2a4", "#41ae76", "#238b45", "#006d2c", "#00441b"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "PuBuGn (9)",
+            "propertyValue": "qual-cb-pubugn",
+            "type": "class",
+            "scale": [
+                "#fff7fb", "#ece2f0", "#d0d1e6", "#a6bddb", "#67a9cf", "#3690c0", "#02818a", "#016c59", "#014636"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "PuBu (9)",
+            "propertyValue": "qual-cb-pubu",
+            "type": "class",
+            "scale": [
+                "#fff7fb", "#ece7f2", "#d0d1e6", "#a6bddb", "#74a9cf", "#3690c0", "#0570b0", "#045a8d", "#023858"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "BuPu (9)",
+            "propertyValue": "qual-cb-bupu",
+            "type": "class",
+            "scale": [
+                "#f7fcfd", "#e0ecf4", "#bfd3e6", "#9ebcda", "#8c96c6", "#8c6bb1", "#88419d", "#810f7c", "#4d004b"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "PuRd (9)",
+            "propertyValue": "qual-cb-purd",
+            "type": "class",
+            "scale": [
+                "#f7f4f9", "#e7e1ef", "#d4b9da", "#c994c7", "#df65b0", "#e7298a", "#ce1256", "#980043", "#67001f"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "RdPu (9)",
+            "propertyValue": "qual-cb-rdpu",
+            "type": "class",
+            "scale": [
+                "#fff7f3", "#fde0dd", "#fcc5c0", "#fa9fb5", "#f768a1", "#dd3497", "#ae017e", "#7a0177", "#49006a"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "OrRd (9)",
+            "propertyValue": "qual-cb-orrd",
+            "type": "class",
+            "scale": [
+                "#fff7ec", "#fee8c8", "#fdd49e", "#fdbb84", "#fc8d59", "#ef6548", "#d7301f", "#b30000", "#7f0000"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "YlOrRd (9)",
+            "propertyValue": "qual-cb-ylorrd",
+            "type": "class",
+            "scale": [
+                "#ffffcc", "#ffeda0", "#fed976", "#feb24c", "#fd8d3c", "#fc4e2a", "#e31a1c", "#bd0026", "#800026"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "YlOrBr (9)",
+            "propertyValue": "qual-cb-ylorbr",
+            "type": "class",
+            "scale": [
+                "#ffffe5", "#fff7bc", "#fee391", "#fec44f", "#fe9929", "#ec7014", "#cc4c02", "#993404", "#662506"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "Purple (9)",
+            "propertyValue": "qual-cb-purple",
+            "type": "class",
+            "scale": [
+                "#fcfbfd", "#efedf5", "#dadaeb", "#bcbddc", "#9e9ac8", "#807dba", "#6a51a3", "#54278f", "#3f007d"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "Blue (9)",
+            "propertyValue": "qual-cb-blue",
+            "type": "class",
+            "scale": [
+                "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#08519c", "#08306b"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "Green (9)",
+            "propertyValue": "qual-cb-green",
+            "type": "class",
+            "scale": [
+                "#f7fcf5", "#e5f5e0", "#c7e9c0", "#a1d99b", "#74c476", "#41ab5d", "#238b45", "#006d2c", "#00441b"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "Orange (9)",
+            "propertyValue": "qual-cb-orange",
+            "type": "class",
+            "scale": [
+                "#fff5eb", "#fee6ce", "#fdd0a2", "#fdae6b", "#fd8d3c", "#f16913", "#d94801", "#a63603", "#7f2704"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "Red (9)",
+            "propertyValue": "qual-cb-red",
+            "type": "class",
+            "scale": [
+                "#fff5f0", "#fee0d2", "#fcbba1", "#fc9272", "#fb6a4a", "#ef3b2c", "#cb181d", "#a50f15", "#67000d"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "Grey(9)",
+            "propertyValue": "qual-cb-grey",
+            "type": "class",
+            "scale": [
+                "#ffffff", "#f0f0f0", "#d9d9d9", "#bdbdbd", "#969696", "#737373", "#525252", "#252525", "#000000"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "PuOr (11)",
+            "propertyValue": "qual-cb-puor",
+            "type": "class",
+            "scale": [
+                "#7f3b08", "#b35806", "#e08214", "#fdb863", "#fee0b6", "#f7f7f7", "#d8daeb", "#b2abd2", "#8073ac", "#542788", "#2d004b"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "BrBG (11)",
+            "propertyValue": "qual-cb-brbg",
+            "type": "class",
+            "scale": [
+                "#543005", "#8c510a", "#bf812d", "#dfc27d", "#f6e8c3", "#f5f5f5", "#c7eae5", "#80cdc1", "#35978f", "#01665e", "#003c30"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "PRGn (11)",
+            "propertyValue": "qual-cb-prgn",
+            "type": "class",
+            "scale": [
+                "#40004b", "#762a83", "#9970ab", "#c2a5cf", "#e7d4e8", "#f7f7f7", "#d9f0d3", "#a6dba0", "#5aae61", "#1b7837", "#00441b"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "PiYG (11)",
+            "propertyValue": "qual-cb-piyg",
+            "type": "class",
+            "scale": [
+                "#8e0152", "#c51b7d", "#de77ae", "#f1b6da", "#fde0ef", "#f7f7f7", "#e6f5d0", "#b8e186", "#7fbc41", "#4d9221", "#276419"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "RdBu (11)",
+            "propertyValue": "qual-cb-rdbu",
+            "type": "class",
+            "scale": [
+                "#67001f", "#b2182b", "#d6604d", "#f4a582", "#fddbc7", "#f7f7f7", "#d1e5f0", "#92c5de", "#4393c3", "#2166ac", "#053061"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "RdGy (11)",
+            "propertyValue": "qual-cb-rdgy",
+            "type": "class",
+            "scale": [
+                "#67001f", "#b2182b", "#d6604d", "#f4a582", "#fddbc7", "#ffffff", "#e0e0e0", "#bababa", "#878787", "#4d4d4d", "#1a1a1a"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "RdYlBu (11)",
+            "propertyValue": "qual-cb-rdylbu",
+            "type": "class",
+            "scale": [
+                "#a50026", "#d73027", "#f46d43", "#fdae61", "#fee090", "#ffffbf", "#e0f3f8", "#abd9e9", "#74add1", "#4575b4", "#313695"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "Spectral (11)",
+            "propertyValue": "qual-cb-spectral",
+            "type": "class",
+            "scale": [
+                "#9e0142", "#d53e4f", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#e6f598", "#abdda4", "#66c2a5", "#3288bd", "#5e4fa2"
+            ]
+        },
+        {
+            "name": "Colorbrewer",
+            "translation": "RdYlGn (11)",
+            "propertyValue": "qual-cb-rdylgn",
+            "type": "class",
+            "scale": [
+                "#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"
+            ]
+        },
+        {
+            "name": "Plotly",
+            "translation": "Picnic (11)",
+            "propertyValue": "div-p-picnic",
+            "type": "class",
+            "scale": [
+                "#0000FF",
+                "#3399FF",
+                "#66CCFF",
+                "#99CCFF",
+                "#CCCCFF",
+                "#FFFFFF",
+                "#FFCCFF",
+                "#FF99FF",
+                "#FF66CC",
+                "#FF6666",
+                "#FF0000"
+            ]
+        }
+    ]
+}
