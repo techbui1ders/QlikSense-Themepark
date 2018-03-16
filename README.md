@@ -35,7 +35,8 @@ For Sequential, Perceptual, and Diverging colors you can reverse the palette wit
 
 ## Limitations
 
-1. When coloring by dimension and 'Persistent colors' is selected, the color palette changes the order of the colors. Some of the palettes place colors next to each other on purpose. I haven't seen a clean workaround.
+1. This only works in Qlik Sense Feb 2018 and newer.
+2. When coloring by dimension and 'Persistent colors' is selected, the color palette changes the order of the colors. Some of the palettes place colors next to each other on purpose. I haven't seen a clean workaround.
 
 ## Shameless Plug
 
