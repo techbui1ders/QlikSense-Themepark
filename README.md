@@ -23,9 +23,11 @@ This will be an ever expanding number of themes. More to come!
 
 ## Color Palettes
 Qualitative (41 palettes)
+
 ![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/dimension.png)
 
 Sequential, Diverging, Perceptual (44)
+
 ![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/measure.png)
 
 For Sequential, Perceptual, and Diverging colors you can reverse the palette with the toggle at the very bottom.
