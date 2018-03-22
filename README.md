@@ -1,5 +1,5 @@
 # Qlik Sense Themepark
-A Qlik Sense extension that integrates over 80 color palettes and themes to get the most out of your data and dashboards.
+A Qlik Sense extension that integrates over 80 color palettes and 2 themes to get the most out of your data and dashboards.
 
 
 ## Installation
@@ -19,7 +19,9 @@ After you have selected your theme. Select your view or report and the theme wil
 ## Themes
 This will be an ever expanding number of themes. More to come!
 
-1. colorpack - Contains the default Qlik styles and only integrates the color palettes.
+1. Colorpack - Contains the default Qlik styles and only integrates the color palettes.
+2. Power BI
+![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/powerbi.PNG)
 
 ## Color Palettes
 Qualitative (41 palettes)
