@@ -21,7 +21,7 @@ This will be an ever expanding number of themes. More to come!
 
 1. Colorpack - Contains the default Qlik styles and only integrates the color palettes.
 2. Power BI
-![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/powerbi.png)
+![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/powerbi.PNG)
 
 ## Color Palettes
 Qualitative (41 palettes)
