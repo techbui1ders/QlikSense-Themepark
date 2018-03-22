@@ -1,0 +1,355 @@
+{
+    "_inherit": true,
+    "_variables": {
+        "@TitleSize": "16px",
+        "@TitleColor": "#696969",
+        "@SubtitleSize": "14px",
+        "@SubtitleColor": "#696969",
+        "@TextSize": "12px",
+        "@TextColor": "#696969",
+        "@FooterSize": "10px",
+        "@FooterColor": "#696969",
+        "@BackgroundColor": "white",
+        "@AxisMajorColor": "#EEEE",
+        "@AxisMinorColor": "#EEEE"
+    },
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "backgroundColor": "@BackgroundColor",
+    "customStyles": [{
+        "cssRef": "theme.css",
+        "classRef": "sense-theme"
+    }],
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleSize"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterSize",
+                "backgroundColor": "@BackgroundColor"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "value": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "line": {
+                "major": {
+                    "color": "#eeeeee"
+                },
+                "minor": {
+                    "color": "#eeeeee"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "#eeeeee"
+                },
+                "major": {
+                    "color": "#eeeeee"
+                },
+                "minor": {
+                    "color": "#eeeeee"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "outOfBounds": {
+                "color": "@TextColor",
+                "backgroundColor": "#ffffff",
+                "fontSize": "@TextSize"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        }
+    },
+    "dataColors": {
+        "primaryColor": "#01b8aa",
+        "othersColor": "#b59525",
+        "errorColor": "#bb4a4a",
+        "nullColor": "#CCCCCC"
+    },
+    "palettes": {
+        "data": [{
+            "name": "Power BI",
+            "translation": "Power BI",
+            "propertyValue": "954rqk",
+            "type": "row",
+            "scale": [
+                "#01b8aa",
+                "#374649",
+                "#fd625e",
+                "#f2c80f",
+                "#5f6b6d",
+                "#8ad4eb",
+                "#fe9666",
+                "#a66999",
+                "#3599b8",
+                "#dfbfbf",
+                "#4ac5bb",
+                "#5f6b6d",
+                "#fb8281",
+                "#f4d25a",
+                "#7f898a",
+                "#a4ddee",
+                "#fdab89",
+                "#b687ac",
+                "#28738a",
+                "#a78f8f",
+                "#168980",
+                "#293537",
+                "#bb4a4a",
+                "#b59525",
+                "#475052"
+            ]
+        }],
+        "ui": [{
+            "name": "Power BI UI",
+            "colors": [
+                "#01b8aa",
+                "#374649",
+                "#fd625e",
+                "#f2c80f",
+                "#5f6b6d",
+                "#8ad4eb",
+                "#fe9666",
+                "#a66999",
+                "#3599b8",
+                "#dfbfbf",
+                "#4ac5bb",
+                "#5f6b6d"
+            ]
+        }]
+    },
+    "scales": [{
+            "name": "Power BI",
+            "translation": "Aqua to Red",
+            "propertyValue": "div-ar",
+            "type": "gradient",
+            "scale": [
+                "#01b8aa",
+                "#fd625e"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Aqua to Gold",
+            "propertyValue": "div-ag",
+            "type": "gradient",
+            "scale": [
+                "#01b8aa",
+                "#f2c80f"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Gold to Red",
+            "propertyValue": "div-gr",
+            "type": "gradient",
+            "scale": [
+                "#f2c80f",
+                "#fd625e"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Teal",
+            "propertyValue": "seq-teal-sc",
+            "type": "gradient",
+            "scale": [
+                "#99E3DD",
+                "#015C55"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Red",
+            "propertyValue": "seq-red-sc",
+            "type": "gradient",
+            "scale": [
+                "#FEC0BF",
+                "#7F312F"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Yellow",
+            "propertyValue": "seq-yellow-sc",
+            "type": "gradient",
+            "scale": [
+                "#FAE99F",
+                "#796408"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Gray",
+            "propertyValue": "seq-gray-sc",
+            "type": "gradient",
+            "scale": [
+                "#BFC4C5",
+                "#2E3435"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Blue",
+            "propertyValue": "seq-blue-sc",
+            "type": "gradient",
+            "scale": [
+                "#D0EEF7",
+                "#456A76"
+            ]
+        },
+
+        {
+            "name": "Power BI",
+            "translation": "Orange",
+            "propertyValue": "seq-orange-sc",
+            "type": "gradient",
+            "scale": [
+                "#FFD5C2",
+                "#7F4B33"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Plum",
+            "propertyValue": "seq-plum-sc",
+            "type": "gradient",
+            "scale": [
+                "#DAC3D6",
+                "#52354C"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Teal (5)",
+            "propertyValue": "seq-teal",
+            "type": "class",
+            "scale": [
+                "#99E3DD",
+                "#67D4CC",
+                "#34C6BB",
+                "#018A80",
+                "#015C55"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Red (5)",
+            "propertyValue": "seq-red",
+            "type": "class",
+            "scale": [
+                "#FEC0BF",
+                "#FEA19E",
+                "#FD817E",
+                "#BE4A47",
+                "#7F312F"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Yellow (5)",
+            "propertyValue": "seq-yellow",
+            "type": "class",
+            "scale": [
+                "#FAE99F",
+                "#F7DE6F",
+                "#F5D33F",
+                "#B6960B",
+                "#796408"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Gray (5)",
+            "propertyValue": "seq-gray",
+            "type": "class",
+            "scale": [
+                "#BFC4C5",
+                "#9EA5A6",
+                "#7C8687",
+                "#454E50",
+                "#2E3435"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Blue (5)",
+            "propertyValue": "seq-blue",
+            "type": "class",
+            "scale": [
+                "#D0EEF7",
+                "#B9E5F3",
+                "#A1DDEF",
+                "#689FB0",
+                "#456A76"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Orange (5)",
+            "propertyValue": "seq-orange",
+            "type": "class",
+            "scale": [
+                "#FFD5C2",
+                "#FEC0A3",
+                "#FEAB85",
+                "#BF714D",
+                "#7F4B33"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Plum (5)",
+            "propertyValue": "seq-plum",
+            "type": "class",
+            "scale": [
+                "#DAC3D6",
+                "#CAA6C1",
+                "#B887AD",
+                "#7D4E72",
+                "#52354C"
+            ]
+        }
+    ]
+}
