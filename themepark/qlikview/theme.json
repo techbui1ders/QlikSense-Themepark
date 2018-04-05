@@ -1,0 +1,222 @@
+{
+    "_inherit": true,
+    "_variables": {
+        "@TitleSize": "16px",
+        "@TitleColor": "#363636",
+        "@SubtitleTextSize": "14px",
+        "@SubtitleColor": "#000000",
+        "@TextSize": "12px",
+        "@TextColor": "#000000",
+        "@FooterTextSize": "10px",
+        "@FooterColor": "#000000",
+        "@Background.color": "white",
+        "@GridColor": "#FFFFFF",
+        "@Object.title.color": "darkgray",
+        "@Object.title.size": "12px",
+        "@Object.axis.line.color": "#EEEE",
+        "@Colors.primary": "#8daacb",
+        "@Colors.others": "#50A0F0",
+        "@Colors.error": "#bb4a4a",
+        "@Colors.null": "#CCCCCC"
+    },
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "gridColor": "@GridColor",
+    "backgroundColor": "@Background.color",
+    "customStyles": [{
+        "cssRef": "theme.css",
+        "classRef": "sense-theme"
+    }],
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleTextSize"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterTextSize"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "value": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@Object.title.color",
+                "fontSize": "@Object.title.size"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "line": {
+                "major": {
+                    "color": "@Object.axis.line.color"
+                },
+                "minor": {
+                    "color": "@Object.axis.line.color"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "@Object.axis.line.color"
+                },
+                "major": {
+                    "color": "@Object.axis.line.color"
+                },
+                "minor": {
+                    "color": "@Object.axis.line.color"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@Object.title.color",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "outOfBounds": {
+                "color": "@Object.title.color",
+                "backgroundColor": "@GridColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@Object.title.color",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@Object.title.color",
+                "fontSize": "@TextSize"
+            }
+        }
+    },
+    "dataColors": {
+        "primaryColor": "@Colors.primary",
+        "othersColor": "@Colors.others",
+        "errorColor": "@Colors.error",
+        "nullColor": "@Colors.null"
+    },
+    "palettes": {
+        "data": [{
+            "name": "QlikView",
+            "translation": "QlikView (20)",
+            "propertyValue": "qual-qlikview",
+            "type": "row",
+            "scale": [
+                "#8daacb",
+                "#fc7362",
+                "#bbd854",
+                "#ffd92f",
+                "#66c296",
+                "#e5b694",
+                "#e78ad2",
+                "#b3b3b3",
+                "#a6d8e3",
+                "#abe9bc",
+                "#1b7d9c",
+                "#ffbfc9",
+                "#4da741",
+                "#c4b2d6",
+                "#b22424",
+                "#00acac",
+                "#be6c2c",
+                "#695496",
+                "#f0a050",
+                "#50a0f0"
+            ]
+        }],
+        "ui": [{
+            "name": "QlikView",
+            "colors": [
+                "#8daacb",
+                "#fc7362",
+                "#bbd854",
+                "#ffd92f",
+                "#66c296",
+                "#e5b694",
+                "#e78ad2",
+                "#b3b3b3",
+                "#a6d8e3",
+                "#abe9bc",
+                "#1b7d9c",
+                "#ffbfc9",
+                "#4da741",
+                "#c4b2d6",
+                "#b22424",
+                "#00acac",
+                "#be6c2c",
+                "#695496",
+                "#f0a050",
+                "#50a0f0"
+            ]
+        }]
+    },
+    "scales": [{
+            "name": "QlikView",
+            "translation": "GnYlRd (Class)",
+            "propertyValue": "seq-gyr-cl",
+            "type": "class",
+            "scale": [
+                "#b22424",
+                "#fc7362",
+                "#f0a050",
+                "#ffd92f",
+                "#bbd854",
+                "#4da741"
+            ]
+        },
+        {
+            "name": "QlikView",
+            "translation": "GnYlRd (Gradient)",
+            "propertyValue": "seq-gyr-gr",
+            "type": "gradient",
+            "scale": [
+                "#b22424",
+                "#fc7362",
+                "#f0a050",
+                "#ffd92f",
+                "#bbd854",
+                "#4da741"
+            ]
+        },
+        {
+            "name": "QlikView",
+            "translation": "Colormix GnYlRd",
+            "propertyValue": "div-vrg",
+            "type": "gradient",
+            "scale": [
+                "#FF0000",
+                "#FFFF00",
+                "#00FF00"
+            ]
+        },
+        {
+            "name": "QlikView",
+            "translation": "GnRd",
+            "propertyValue": "div-rg",
+            "type": "gradient",
+            "scale": [
+                "#b22424",
+                "#ffffff",
+                "#4da741"
+            ]
+        }
+    ]
+}

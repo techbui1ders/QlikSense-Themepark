@@ -1,6 +1,7 @@
 :root {
     --padding: 14px;
     --background: #EEEE;
+    --grid-title: #696969;
     --grid-background: white;
     --grid-margin: 0 10px 10px 10px;
     --gray-dark: #696969;
@@ -12,41 +13,65 @@
     --red: #FD625E;
 }
 
+
+/* Background */
+
 .qvt-sheet {
-    /* Background */
     background: var(--background) !important;
-    color: var(--gray-dark);
 }
 
+
+/* Grid Title */
+
+#sheet-title.sheet-grid {
+    color: var(--grid-title) !important;
+    font-weight: bold;
+}
+
+
+/* Every Object */
+
 .qv-object * {
-    /* Every Object */
     cursor: pointer;
 }
 
+
+/* Visualization Grid */
+
 .sheet-grid #grid {
-    /* Visualization Grid */
     background: var(--grid-background);
     margin: var(--grid-margin);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+/* Viz Object Title */
+
 .qv-object .qv-object-title,
 .qv-object .qv-object-subtitle,
 .qv-object .qv-object-footnote,
 .qv-viz-disclaimer {
-    /* Viz Object Title */
     padding-left: var(--padding);
 }
 
+
+/* Viz Object Title */
+
 .qv-object .qv-object-title {
-    /* Viz Object Title */
     padding-top: var(--padding);
 }
 
-.qv-object.qv-selections-active {}
-
 
 /* Chart Tooltips */
+
+
+/* Border */
+
+
+/* .qvt-chart-tooltip,
+.qvt-chart-tooltip .immidiate-contextual-arrow {
+    border: 1px solid var(--grid-title) !important;
+} */
 
 .qvt-chart-tooltip,
 .qvt-chart-tooltip .qv-chart-tooltip-inner {
@@ -92,27 +117,35 @@
     color: var(--gray) !important;
 }
 
+
+/* Title Text Color */
+
 .title-wrapper .title,
 .lui-icon--more,
 .qv-global-selections .qv-object-header .qv-object-title-text,
 .qv-object-listbox .qv-object-header .qv-object-title-text,
 .qv-object-listbox .lui-icon--search {
     color: var(--gray-dark) !important;
-    /* Title Text Color */
 }
+
+
+/* Background of Field Selection */
 
 .qv-state-count-bar .state.alternative {
     background: var(--gray);
-    /* Background of Field Selection */
 }
 
+
+/* Field Selection bar */
+
 .qv-collapsed-listbox .qv-state-count-bar {
-    /* Field Selection bar */
     border-top-width: 0 !important;
 }
 
+
+/* Available Field Selection bar */
+
 .qv-state-count-bar .state.optional {
-    /* Available Field Selection bar */
     border: .5px solid var(--background);
 }
 
