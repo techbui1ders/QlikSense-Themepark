@@ -3,19 +3,24 @@
     "_variables": {
         "@TitleSize": "16px",
         "@TitleColor": "#696969",
-        "@SubtitleSize": "14px",
+        "@SubtitleTextSize": "14px",
         "@SubtitleColor": "#696969",
         "@TextSize": "12px",
         "@TextColor": "#696969",
-        "@FooterSize": "10px",
+        "@FooterTextSize": "10px",
         "@FooterColor": "#696969",
-        "@BackgroundColor": "white",
-        "@AxisMajorColor": "#EEEE",
-        "@AxisMinorColor": "#EEEE"
+        "@GridColor": "white",
+        "@Object.title.color": "darkgray",
+        "@Object.title.size": "12px",
+        "@Object.axis.line.color": "#EEEE",
+        "@Colors.primary": "#01b8aa",
+        "@Colors.others": "#EEEE",
+        "@Colors.error": "#bb4a4a",
+        "@Colors.null": "#CCCCCC"
     },
     "color": "@TextColor",
     "fontSize": "@TextSize",
-    "backgroundColor": "@BackgroundColor",
+    "gridColor": "@GridColor",
     "customStyles": [{
         "cssRef": "theme.css",
         "classRef": "sense-theme"
@@ -28,12 +33,11 @@
             },
             "subTitle": {
                 "color": "@SubtitleColor",
-                "fontSize": "@SubtitleSize"
+                "fontSize": "@SubtitleTextSize"
             },
             "footer": {
                 "color": "@FooterColor",
-                "fontSize": "@FooterSize",
-                "backgroundColor": "@BackgroundColor"
+                "fontSize": "@FooterTextSize"
             }
         },
         "label": {
@@ -48,8 +52,8 @@
         },
         "axis": {
             "title": {
-                "color": "@TextColor",
-                "fontSize": "@TextSize"
+                "color": "@Object.title.color",
+                "fontSize": "@Object.title.size"
             },
             "label": {
                 "color": "@TextColor",
@@ -57,61 +61,61 @@
             },
             "line": {
                 "major": {
-                    "color": "#eeeeee"
+                    "color": "@Object.axis.line.color"
                 },
                 "minor": {
-                    "color": "#eeeeee"
+                    "color": "@Object.axis.line.color"
                 }
             }
         },
         "grid": {
             "line": {
                 "highContrast": {
-                    "color": "#eeeeee"
+                    "color": "@Object.axis.line.color"
                 },
                 "major": {
-                    "color": "#eeeeee"
+                    "color": "@Object.axis.line.color"
                 },
                 "minor": {
-                    "color": "#eeeeee"
+                    "color": "@Object.axis.line.color"
                 }
             }
         },
         "referenceLine": {
             "label": {
                 "name": {
-                    "color": "@TextColor",
+                    "color": "@Object.title.color",
                     "fontSize": "@TextSize"
                 }
             },
             "outOfBounds": {
-                "color": "@TextColor",
-                "backgroundColor": "#ffffff",
+                "color": "@Object.title.color",
+                "backgroundColor": "@GridColor",
                 "fontSize": "@TextSize"
             }
         },
         "legend": {
             "title": {
-                "color": "@TextColor",
+                "color": "@Object.title.color",
                 "fontSize": "@TextSize"
             },
             "label": {
-                "color": "@TextColor",
+                "color": "@Object.title.color",
                 "fontSize": "@TextSize"
             }
         }
     },
     "dataColors": {
-        "primaryColor": "#01b8aa",
-        "othersColor": "#b59525",
-        "errorColor": "#bb4a4a",
-        "nullColor": "#CCCCCC"
+        "primaryColor": "@Colors.primary",
+        "othersColor": "@Colors.others",
+        "errorColor": "@Colors.error",
+        "nullColor": "@Colors.null"
     },
     "palettes": {
         "data": [{
             "name": "Power BI",
-            "translation": "Power BI",
-            "propertyValue": "954rqk",
+            "translation": "Power BI (25)",
+            "propertyValue": "qual-powerbi",
             "type": "row",
             "scale": [
                 "#01b8aa",
@@ -142,7 +146,7 @@
             ]
         }],
         "ui": [{
-            "name": "Power BI UI",
+            "name": "Power BI",
             "colors": [
                 "#01b8aa",
                 "#374649",

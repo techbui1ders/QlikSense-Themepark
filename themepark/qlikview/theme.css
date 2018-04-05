@@ -1,0 +1,139 @@
+:root {
+    --padding: 14px;
+    --background: #F8F8F8;
+    --grid-title: #363636;
+    --grid-background: var(--background);
+    --grid-margin: 0 10px 10px 10px;
+    --gray-dark: #696969;
+    --popover-background: rgba(140, 140, 140, .5);
+    --rangeslider-gray: #696969;
+    --rangeslider-background: rgb(155, 249, 161, .4);
+    --gray: #EEEE;
+    --green: #4AC5BB;
+    --red: #FD625E;
+}
+
+.qvt-sheet {
+    /* Background */
+    background: var(--background) !important;
+}
+
+#sheet-title.sheet-grid {
+    /* Grid Title */
+    color: var(--grid-title) !important;
+    font-weight: bold;
+}
+
+
+/* Every Object */
+
+.qv-object * {
+    cursor: crosshair;
+}
+
+
+/* Visualization Grid */
+
+.sheet-grid #grid {
+    background: var(--grid-background);
+}
+
+
+/* Chart Tooltips */
+
+.qvt-chart-tooltip,
+.qvt-chart-tooltip .immidiate-contextual-arrow {
+    border: 1px solid var(--grid-title) !important;
+}
+
+.qvt-chart-tooltip,
+.qvt-chart-tooltip .qv-chart-tooltip-inner {
+    background-color: #FFFFE1 !important;
+    color: var(--gray-dark) !important;
+    opacity: 1;
+}
+
+.qvt-chart-tooltip .immidiate-contextual-arrow {
+    border-bottom: 10px solid #FFFFE1;
+}
+
+.qv-chart-tooltip-content table,
+.qv-chart-tooltip-content tr:nth-of-type(even) {
+    background-color: #FFFFE1 !important;
+    color: var(--gray-dark);
+}
+
+
+/* End Chart Tooltips */
+
+
+/* Listbox Styles */
+
+.qv-client .qv-filterpane,
+.qv-filterpane .qv-filterpane-column:first-child:last-child {
+    background-color: var(--background) !important;
+}
+
+
+/* End Listbox Styles */
+
+
+/* Range Slider Style */
+
+.qvt-range-selection .axis-cover,
+.qvt-range-selection .axis-cover:hover,
+.qvt-range-selection .range-vertical,
+.qvt-range-selection .range-horizontal {
+    background-color: var(--rangeslider-background) !important;
+}
+
+.qvt-range-selection .axis-cover.active,
+.qvt-range-selection .axis-cover:hover,
+.qvt-range-selection .range-vertical .range:hover,
+.qvt-range-selection .range-horizontal .hover:hover {
+    background-color: var(--rangeslider-background) !important;
+}
+
+.qvt-range-selection .bubble {
+    background-color: white;
+    border-color: var(--gray);
+    color: var(--gray-dark);
+}
+
+.qvt-range-selection .bubble.active,
+.qvt-range-selection .bubble:hover {
+    border: 1px solid var(--gray) !important;
+}
+
+.qvt-range-selection .range-vertical .near-edge,
+.qvt-range-selection .range-horizontal .near-edge,
+.qvt-range-selection .range-vertical .far-edge,
+.qvt-range-selection .range-horizontal .far-edge {
+    border-color: rgb(128, 128, 128, .20);
+}
+
+.qvt-range-selection .range-vertical .near-edge.active,
+.qvt-range-selection .range-horizontal .near-edge.active,
+.qvt-range-selection .range-vertical .far-edge.active,
+.qvt-range-selection .range-horizontal .far-edge.active,
+.qvt-range-selection .range-vertical .near-edge:hover,
+.qvt-range-selection .range-horizontal .near-edge:hover,
+.qvt-range-selection .range-vertical .far-edge:hover,
+.qvt-range-selection .range-horizontal .far-edge:hover {
+    border-color: var(--gray);
+}
+
+
+/* End Range Slider Style */
+
+
+/* Table Style */
+
+
+/* End Table Style */
+
+
+/* Pivot Table Style */
+
+
+/* End Pivot Table Style */
