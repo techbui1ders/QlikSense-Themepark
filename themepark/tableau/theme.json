@@ -1,0 +1,832 @@
+{
+    "_inherit": false,
+    "_variables": {
+        "@TitleSize": "24px",
+        "@TitleColor": "#696969",
+        "@SubtitleTextSize": "14px",
+        "@SubtitleColor": "#696969",
+        "@TextSize": "12px",
+        "@TextColor": "#696969",
+        "@FooterTextSize": "10px",
+        "@FooterColor": "#696969",
+        "@GridColor": "white",
+        "@Background.color": "#FFFFFF",
+        "@Object.title.color": "darkgray",
+        "@Object.title.size": "12px",
+        "@Object.axis.line.color": "#EEEEEE",
+        "@Colors.primary": "#01b8aa",
+        "@Colors.others": "#EEEEEE",
+        "@Colors.error": "#bb4a4a",
+        "@Colors.null": "#CCCCCC"
+    },
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "gridColor": "@GridColor",
+    "backgroundColor": "@Background.color",
+    "customStyles": [{
+        "cssRef": "theme.css",
+        "classRef": "sense-theme"
+    }],
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleTextSize"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterTextSize"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "value": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@Object.title.color",
+                "fontSize": "@Object.title.size"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "line": {
+                "major": {
+                    "color": "@Object.axis.line.color"
+                },
+                "minor": {
+                    "color": "@Object.axis.line.color"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "@Object.axis.line.color"
+                },
+                "major": {
+                    "color": "@Object.axis.line.color"
+                },
+                "minor": {
+                    "color": "@Object.axis.line.color"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@Object.title.color",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "outOfBounds": {
+                "color": "@Object.title.color",
+                "backgroundColor": "@GridColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@Object.title.color",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@Object.title.color",
+                "fontSize": "@TextSize"
+            }
+        }
+    },
+    "dataColors": {
+        "primaryColor": "@Colors.primary",
+        "othersColor": "@Colors.others",
+        "errorColor": "@Colors.error",
+        "nullColor": "@Colors.null"
+    },
+    "palettes": {
+        "data": [{
+                "name": "Tableau",
+                "translation": "Classic 10",
+                "propertyValue": "qual-classic10",
+                "type": "row",
+                "scale": [
+                    "#1F77B4",
+                    "#FF7F0F",
+                    "#2CA02C",
+                    "#D62728",
+                    "#9467BD",
+                    "#8C564B",
+                    "#E377C2",
+                    "#7F7F7F",
+                    "#BCBD22",
+                    "#17BECE"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Classic Medium 10",
+                "propertyValue": "qual-classicm10",
+                "type": "row",
+                "scale": [
+                    "#729ECE",
+                    "#FF9E4A",
+                    "#67BF5C",
+                    "#ED665D",
+                    "#AD8BC9",
+                    "#A8786E",
+                    "#ED97CA",
+                    "#A2A2A2",
+                    "#CDCC5D",
+                    "#6DCCDA"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Classic 20",
+                "propertyValue": "qual-classic20",
+                "type": "row",
+                "scale": [
+                    "#1F77B4",
+                    "#AEC7E8",
+                    "#FF7F0E",
+                    "#FFBB78",
+                    "#2CA02C",
+                    "#98DF8A",
+                    "#D62728",
+                    "#FF9896",
+                    "#9467BD",
+                    "#C5B0D5",
+                    "#8C564B",
+                    "#C49C94",
+                    "#E377C2",
+                    "#F7B6D2",
+                    "#7F7F7F",
+                    "#C7C7C7",
+                    "#BCBD22",
+                    "#DBDB8D",
+                    "#17BECF",
+                    "#9EDAE5"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Tableau 10",
+                "propertyValue": "qual-10",
+                "type": "row",
+                "scale": [
+                    "#4E79A7",
+                    "#F28E2B",
+                    "#E15759",
+                    "#76B7B2",
+                    "#59A14E",
+                    "#EDC949",
+                    "#B07AA1",
+                    "#FF9DA7",
+                    "#9C755F",
+                    "#BAB0AC"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Tableau 20",
+                "propertyValue": "qual-20",
+                "type": "row",
+                "scale": [
+                    "#4E79A7",
+                    "#A0CBE8",
+                    "#F28E2B",
+                    "#FFBE7D",
+                    "#59A14F",
+                    "#8CD17D",
+                    "#B6992D",
+                    "#F1CE63",
+                    "#499894",
+                    "#86BCB6",
+                    "#E15759",
+                    "#FF9D9A",
+                    "#79706E",
+                    "#BAB0AC",
+                    "#D37295",
+                    "#FABFD2",
+                    "#B07AA1",
+                    "#D4A6C8",
+                    "#9D7660",
+                    "#D7B5A6"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Color Blind 10",
+                "propertyValue": "qual-colorblind",
+                "type": "row",
+                "scale": [
+                    "#1170AA",
+                    "#FC7D0B",
+                    "#A3ACB9",
+                    "#57606C",
+                    "#5FA2CE",
+                    "#C85200",
+                    "#7B848F",
+                    "#A3CCE9",
+                    "#FFBC79",
+                    "#C8D0D9"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Seattle Grays 5",
+                "propertyValue": "qual-grays",
+                "type": "row",
+                "scale": [
+                    "#767F8B",
+                    "#B3B7B8",
+                    "#5C6068",
+                    "#D3D3D3",
+                    "#989CA3"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Traffic Light 9",
+                "propertyValue": "qual-trafficlight",
+                "type": "row",
+                "scale": [
+                    "#B60A1C",
+                    "#E39802",
+                    "#309143",
+                    "#E03531",
+                    "#F0BD27",
+                    "#51B364",
+                    "#FF684C",
+                    "#FFDA66",
+                    "#FFDA66"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Superfishel Stone 10",
+                "propertyValue": "qual-superfishel",
+                "type": "row",
+                "scale": [
+                    "#6388B4",
+                    "#FFAE34",
+                    "#EF6F6A",
+                    "#8CC2CA",
+                    "#55AD89",
+                    "#C3BC3F",
+                    "#BB7693",
+                    "#BAA094",
+                    "#A9B5AE",
+                    "#767676"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Miller Stone 11",
+                "propertyValue": "qual-millerstone",
+                "type": "row",
+                "scale": [
+                    "#4F6980",
+                    "#849DB1",
+                    "#A2CEAA",
+                    "#638B66",
+                    "#BFBB60",
+                    "#F47942",
+                    "#FBB04E",
+                    "#B66353",
+                    "#D7CE9F",
+                    "#B9AA97",
+                    "#7E756D"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Nuriel Stone 9",
+                "propertyValue": "qual-nurielstone",
+                "type": "row",
+                "scale": [
+                    "#8175AA",
+                    "#6FB899",
+                    "#31A1B3",
+                    "#CCB22B",
+                    "#A39FC9",
+                    "#94D0C0",
+                    "#959C9E",
+                    "#027B8E",
+                    "#9F8F12"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Jewel Bright 9",
+                "propertyValue": "qual-jewelbright",
+                "type": "row",
+                "scale": [
+                    "#EB1E2C",
+                    "#FD6F30",
+                    "#F9A729",
+                    "#F9D23C",
+                    "#5FBB68",
+                    "#64CDCC",
+                    "#91DCEA",
+                    "#A4A4D5",
+                    "#BBC9E5"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Summer 8",
+                "propertyValue": "qual-summer",
+                "type": "row",
+                "scale": [
+                    "#8FB202",
+                    "#B9CA5D",
+                    "#CF3E53",
+                    "#F1788D",
+                    "#00A2B3",
+                    "#97CFD0",
+                    "#F3A546",
+                    "#F7C480"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Winter 10",
+                "propertyValue": "qual-winter",
+                "type": "row",
+                "scale": [
+                    "#90728F",
+                    "#B9A0B4",
+                    "#9D9B3D",
+                    "#CECB76",
+                    "#E15759",
+                    "#FF9888",
+                    "#6B6B6B",
+                    "#BAB2AE",
+                    "#AA8780",
+                    "#DAB6AF"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Green-Orange-Teal 12",
+                "propertyValue": "qual-got",
+                "type": "row",
+                "scale": [
+                    "#4E9F50",
+                    "#87D180",
+                    "#EF8A0C",
+                    "#FCC66D",
+                    "#3CA8BC",
+                    "#98D9E4",
+                    "#94A323",
+                    "#C3CE3D",
+                    "#A08400",
+                    "#F7D42A",
+                    "#26897E",
+                    "#8DBFA8"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Blue-Red-Brown 12",
+                "propertyValue": "qual-brb",
+                "type": "row",
+                "scale": [
+                    "#466F9D",
+                    "#91B3D7",
+                    "#ED444A",
+                    "#FEB5A2",
+                    "#9D7660",
+                    "#D7B5A6",
+                    "#3896C4",
+                    "#A0D4EE",
+                    "#BA7E45",
+                    "#E9B87F",
+                    "#C8133B",
+                    "#EA8783"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Purple-Pink-Gray 12",
+                "propertyValue": "qual-ppg",
+                "type": "row",
+                "scale": [
+                    "#8074A8",
+                    "#C6C1F0",
+                    "#C46487",
+                    "#FFBED1",
+                    "#9C9290",
+                    "#C5BFBE",
+                    "#9B93C9",
+                    "#DDB5D5",
+                    "#7C7270",
+                    "#F498B6",
+                    "#B173A0",
+                    "#C799BC"
+                ]
+            }
+        ],
+        "ui": [{
+            "name": "Tableau",
+            "colors": [
+                "#4E79A7",
+                "#A0CBE8",
+                "#F28E2B",
+                "#FFBE7D",
+                "#59A14F",
+                "#8CD17D",
+                "#B6992D",
+                "#F1CE63",
+                "#499894",
+                "#86BCB6",
+                "#E15759",
+                "#FF9D9A",
+                "#79706E",
+                "#BAB0AC",
+                "#D37295",
+                "#FABFD2",
+                "#B07AA1",
+                "#D4A6C8",
+                "#9D7660",
+                "#D7B5A6"
+            ]
+        }]
+    },
+    "scales": [{
+            "name": "Tableu",
+            "translation": "Blue",
+            "propertyValue": "seq-blue",
+            "type": "gradient",
+            "scale": [
+                "#B9DDF1",
+                "#AFD6ED",
+                "#A5CFE9",
+                "#9BC7E4",
+                "#92C0DF",
+                "#89B8DA",
+                "#80B0D5",
+                "#79AACF",
+                "#72A3C9",
+                "#6A9BC3",
+                "#6394BE",
+                "#5B8CB8",
+                "#5485B2",
+                "#4E7FAC",
+                "#4878A6",
+                "#43719F",
+                "#3D6A98",
+                "#376491",
+                "#305D8A",
+                "#2A5783"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Orange",
+            "propertyValue": "seq-orange",
+            "type": "gradient",
+            "scale": [
+                "#FFC685",
+                "#FCBE75",
+                "#F9B665",
+                "#F7AE54",
+                "#F5A645",
+                "#F59C3C",
+                "#F49234",
+                "#F2882D",
+                "#F07E27",
+                "#EE7422",
+                "#E96B20",
+                "#E36420",
+                "#DB5E20",
+                "#D25921",
+                "#CA5422",
+                "#C14F22",
+                "#B84B23",
+                "#AF4623",
+                "#A64122",
+                "#9E3D22"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Green",
+            "propertyValue": "seq-green",
+            "type": "gradient",
+            "scale": [
+                "#B3E0A6",
+                "#A5DB96",
+                "#98D687",
+                "#8ED07F",
+                "#85CA77",
+                "#7DC370",
+                "#75BC69",
+                "#6EB663",
+                "#67AF5C",
+                "#61A956",
+                "#59A253",
+                "#519C51",
+                "#49964F",
+                "#428F4D",
+                "#398949",
+                "#308344",
+                "#2B7C40",
+                "#27763D",
+                "#256F3D",
+                "#24693D"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Red",
+            "propertyValue": "seq-red",
+            "type": "gradient",
+            "scale": [
+                "#FFBEB2",
+                "#FEB4A6",
+                "#FDAB9B",
+                "#FCA290",
+                "#FB9984",
+                "#FA8F79",
+                "#F9856E",
+                "#F77B66",
+                "#F5715D",
+                "#F36754",
+                "#F05C4D",
+                "#EC5049",
+                "#E74545",
+                "#E13B42",
+                "#DA323F",
+                "#D3293D",
+                "#CA223C",
+                "#C11A3B",
+                "#B8163A",
+                "#AE123A"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Purple",
+            "propertyValue": "seq-purple",
+            "type": "gradient",
+            "scale": [
+                "#EEC9E5",
+                "#EAC1DF",
+                "#E6B9D9",
+                "#E0B2D2",
+                "#DAABCB",
+                "#D5A4C4",
+                "#CF9DBE",
+                "#CA96B8",
+                "#C48FB2",
+                "#BE89AC",
+                "#B882A6",
+                "#B27BA1",
+                "#AA759D",
+                "#A27099",
+                "#9A6A96",
+                "#926591",
+                "#8C5F8C",
+                "#865986",
+                "#81537F",
+                "#7C4D79"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Brown",
+            "propertyValue": "seq-brown",
+            "type": "gradient",
+            "scale": [
+                "#EEDBBD",
+                "#ECD2A8",
+                "#EBC994",
+                "#EAC085",
+                "#E8B777",
+                "#E5AE6C",
+                "#E2A562",
+                "#DE9D5A",
+                "#D99455",
+                "#D38C54",
+                "#CE8451",
+                "#C97B4D",
+                "#C47247",
+                "#C16941",
+                "#BD603B",
+                "#B85636",
+                "#B34D34",
+                "#AD4433",
+                "#A63D32",
+                "#9F3632"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Gray",
+            "propertyValue": "seq-gray",
+            "type": "gradient",
+            "scale": [
+                "#D5D5D5",
+                "#CDCECD",
+                "#C5C7C6",
+                "#BCBFBE",
+                "#B4B7B7",
+                "#ACB0B1",
+                "#A4A9AB",
+                "#9CA3A4",
+                "#939C9E",
+                "#8B9598",
+                "#848E93",
+                "#7C878D",
+                "#758087",
+                "#6E7A81",
+                "#67737C",
+                "#616C77",
+                "#5B6570",
+                "#555F6A",
+                "#4F5864",
+                "#49525E"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Gray Warm",
+            "propertyValue": "seq-grayw",
+            "type": "gradient",
+            "scale": [
+                "#DCD4D0",
+                "#D4CCC8",
+                "#CDC4C0",
+                "#C5BDB9",
+                "#BEB6B2",
+                "#B7AFAB",
+                "#B0A7A4",
+                "#A9A09D",
+                "#A29996",
+                "#9B938F",
+                "#948C88",
+                "#8D8481",
+                "#867E7B",
+                "#807774",
+                "#79706E",
+                "#736967",
+                "#6C6260",
+                "#665C5A",
+                "#5F5654",
+                "#59504E"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Blue-Teal",
+            "propertyValue": "seq-blueteal",
+            "type": "gradient",
+            "scale": [
+                "#BCE4D8",
+                "#AEDCD5",
+                "#A1D5D2",
+                "#95CECF",
+                "#89C8CC",
+                "#7EC1CA",
+                "#72BAC6",
+                "#66B3C2",
+                "#59ACBE",
+                "#4BA5BA",
+                "#419EB6",
+                "#3B96B2",
+                "#358EAD",
+                "#3586A7",
+                "#347EA1",
+                "#32779B",
+                "#316F96",
+                "#2F6790",
+                "#2D608A",
+                "#2C5985"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Orange-Gold",
+            "propertyValue": "seq-orangegold",
+            "type": "gradient",
+            "scale": [
+                "#F4D166",
+                "#F6C760",
+                "#F8BC5B",
+                "#F8B252",
+                "#F7A84A",
+                "#F69E41",
+                "#F49538",
+                "#F38B2F",
+                "#F28026",
+                "#F0751E",
+                "#EB6C1C",
+                "#E4641E",
+                "#DE5D1F",
+                "#D75521",
+                "#CF4F22",
+                "#C64A22",
+                "#BC4623",
+                "#B24223",
+                "#A83E24",
+                "#9E3A26"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Green-Gold",
+            "propertyValue": "seq-gg",
+            "type": "gradient",
+            "scale": [
+                "#F4D166",
+                "#E3CD62",
+                "#D3C95F",
+                "#C3C55D",
+                "#B2C25B",
+                "#A3BD5A",
+                "#93B958",
+                "#84B457",
+                "#76AF56",
+                "#67A956",
+                "#5AA355",
+                "#4F9E53",
+                "#479751",
+                "#40914F",
+                "#3A8A4D",
+                "#34844A",
+                "#2D7D45",
+                "#257740",
+                "#1C713B",
+                "#146C36"
+            ]
+        },
+        {
+            "name": "Tableu",
+            "translation": "Red-Gold",
+            "propertyValue": "seq-rg",
+            "type": "gradient",
+            "scale": [
+                "#F4D166",
+                "#F5C75F",
+                "#F6BC58",
+                "#F7B254",
+                "#F9A750",
+                "#FA9D4F",
+                "#FB934D",
+                "#F7894B",
+                "#F47F4A",
+                "#F0774A",
+                "#EB6E49",
+                "#E66549",
+                "#E15C48",
+                "#DC5447",
+                "#D64C45",
+                "#D04344",
+                "#CA3A42",
+                "#C43141",
+                "#BD273F",
+                "#B71D3E"
+            ]
+        },
+        {
+            "name": "Tableau",
+            "translation": "Hue Circle",
+            "propertyValue": "seq-circlue",
+            "type": "class",
+            "scale": [
+                "#1BA3C6",
+                "#2CB5C0",
+                "#30BCAD",
+                "#21B087",
+                "#33A65C",
+                "#57A337",
+                "#A2B627",
+                "#D5BB21",
+                "#F8B620",
+                "#F89217",
+                "#F06719",
+                "#E03426",
+                "#EB364A",
+                "#F64971",
+                "#FC719E",
+                "#EB73B3",
+                "#CE69BE",
+                "#A26DC2",
+                "#7873C0",
+                "#4F7CBA"
+            ]
+        }
+    ]
+}
