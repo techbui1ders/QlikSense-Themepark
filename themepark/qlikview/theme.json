@@ -13,7 +13,7 @@
         "@GridColor": "#FFFFFF",
         "@Object.title.color": "darkgray",
         "@Object.title.size": "12px",
-        "@Object.axis.line.color": "#EEEE",
+        "@Object.axis.line.color": "#EEEEEE",
         "@Colors.primary": "#8daacb",
         "@Colors.others": "#50A0F0",
         "@Colors.error": "#bb4a4a",

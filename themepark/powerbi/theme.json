@@ -169,8 +169,8 @@
             "propertyValue": "div-ar",
             "type": "gradient",
             "scale": [
-                "#01b8aa",
-                "#fd625e"
+                "#fd625e",
+                "#01b8aa"
             ]
         },
         {
@@ -179,8 +179,8 @@
             "propertyValue": "div-ag",
             "type": "gradient",
             "scale": [
-                "#01b8aa",
-                "#f2c80f"
+                "#f2c80f",
+                "#01b8aa"
             ]
         },
         {
@@ -189,8 +189,8 @@
             "propertyValue": "div-gr",
             "type": "gradient",
             "scale": [
-                "#f2c80f",
-                "#fd625e"
+                "#fd625e",
+                "#f2c80f"
             ]
         },
         {
