@@ -1,0 +1,312 @@
+:root {
+    --padding: 14px;
+    --background: #323B44;
+    --grid-title: #98A6AD;
+    --grid-background: #323B44;
+    --grid-margin: 0 10px 10px 10px;
+    --gray-dark: #696969;
+    --popover-background: rgba(140, 140, 140, .5);
+    --rangeslider: #98A6AD;
+    --rangeslider-background: rgb(183, 213, 236, .6);
+    --gray: #98A6AD;
+}
+
+
+/* Background */
+
+.qvt-sheet,
+.qvt-sheet.qv-custom-size #grid {
+    background: var(--background) !important;
+}
+
+
+/* Grid Title */
+
+
+/* #sheet-title.sheet-grid {
+    color: var(--grid-title) !important;
+    font-weight: bold;
+} */
+
+
+/* Every Object */
+
+.qv-object * {
+    cursor: pointer;
+}
+
+
+/* Visualization Grid */
+
+
+/* Viz Object Title */
+
+.qv-object .qv-object-title,
+.qv-object .qv-object-subtitle,
+.qv-object .qv-object-footnote,
+.qv-viz-disclaimer {
+    /* padding-left: var(--padding); */
+    font-weight: normal !important;
+}
+
+
+/* Viz Object Title */
+
+
+/* Chart Tooltips */
+
+
+/* Border */
+
+.qvt-chart-tooltip,
+.qvt-chart-tooltip .immidiate-contextual-arrow {
+    border: 1px solid var(--gray) !important;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2), 2px 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.qvt-chart-tooltip,
+.qvt-chart-tooltip .qv-chart-tooltip-inner {
+    background-color: var(--background) !important;
+    color: #B4B4B4 !important;
+    opacity: 1;
+}
+
+.qvt-chart-tooltip .immidiate-contextual-arrow {
+    border-bottom: 10px solid var(--background);
+}
+
+.qv-chart-tooltip-content table,
+.qv-chart-tooltip-content tr:nth-of-type(even) {
+    background-color: var(--background) !important;
+    color: #898989 !important;
+}
+
+
+/* End Chart Tooltips */
+
+
+/* Listbox Styles */
+
+
+/* .title-wrapper,
+.qv-collapsed-listbox,
+.qv-filterpane-collapsed {
+    background-color: var(--grid-background) !important;
+    color: var(--gray-dark) !important;
+    border-color: var(--gray);
+} */
+
+.qv-collapsed-listbox:hover,
+.qv-filterpane-collapsed:hover {
+    border-color: var(--gray) !important;
+}
+
+.qv-listbox {
+    background-color: var(--grid-background);
+}
+
+.qv-selections-pager .text-wrap .name {
+    color: var(--gray) !important;
+}
+
+
+/* Title Text Color */
+
+
+/* .title-wrapper .title,
+.lui-icon--more,
+.qv-global-selections .qv-object-header .qv-object-title-text,
+.qv-object-listbox .qv-object-header .qv-object-title-text,
+.qv-object-listbox .lui-icon--search {
+    color: var(--gray-dark) !important;
+} */
+
+.qv-gs-section .qv-inner-object .qv-object-header {
+    background-color: #FFFFFF !important;
+}
+
+
+/* Background of Field Selection */
+
+.qv-state-count-bar .state.alternative,
+.qv-listbox li.serverOptional {
+    background: #FFFFFF !important;
+}
+
+
+/* Field Selection bar */
+
+.qv-collapsed-listbox .qv-state-count-bar {
+    border-top-width: 0 !important;
+}
+
+
+/* Available Field Selection bar */
+
+.qv-state-count-bar .state.optional {
+    border: .5px solid var(--background);
+}
+
+.qv-listbox-popover .content,
+.qv-listbox-container {
+    background-color: var(--popover-background);
+}
+
+.qvt-sheet-expand-button {
+    color: var(--gray-dark);
+    background-color: var(--gray);
+}
+
+.qvt-visualization-title,
+.qvt-visualization-axis-breadcrumb .crumb-item,
+.qvt-visualization-axis-breadcrumb .crumb-item .crumb-button:hover {
+    color: var(--gray-dark);
+}
+
+.sel-toolbar-icon-toggle.menu-active,
+.qvt-visualization-axis-breadcrumb .crumb-item .crumb-button {
+    color: var(--gray) !important;
+}
+
+.sel-toolbar-icon-toggle.menu-active,
+.qvt-visualization-axis-breadcrumb .crumb-item .crumb-button {
+    background-color: var(--gray) !important;
+}
+
+.sel-toolbar-cancel,
+.sel-toolbar-cancel:hover,
+.sel-toolbar-confirm,
+.sel-toolbar-confirm:hover {
+    border: 1px solid var(--gray) !important;
+    background-color: var(--gray) !important;
+}
+
+
+/* End Listbox Styles */
+
+
+/* Range Slider Style */
+
+.qvt-range-selection .axis-cover,
+.qvt-range-selection .axis-cover:hover,
+.qvt-range-selection .range-vertical,
+.qvt-range-selection .range-horizontal {
+    background-color: var(--rangeslider-background) !important;
+}
+
+.qvt-range-selection .axis-cover.active,
+.qvt-range-selection .axis-cover:hover,
+.qvt-range-selection .range-vertical .range:hover,
+.qvt-range-selection .range-horizontal .hover:hover {
+    background-color: var(--rangeslider-background) !important;
+}
+
+.qvt-range-selection .bubble {
+    background-color: var(--grid-background);
+    border-color: var(--rangeslider);
+    color: var(--gray-dark);
+}
+
+.qvt-range-selection .bubble.active,
+.qvt-range-selection .bubble:hover {
+    border: 2px solid var(--rangeslider) !important;
+}
+
+.qvt-range-selection .range-vertical .near-edge,
+.qvt-range-selection .range-horizontal .near-edge,
+.qvt-range-selection .range-vertical .far-edge,
+.qvt-range-selection .range-horizontal .far-edge {
+    border-color: var(--rangeslider);
+}
+
+.qvt-range-selection .range-vertical .near-edge.active,
+.qvt-range-selection .range-horizontal .near-edge.active,
+.qvt-range-selection .range-vertical .far-edge.active,
+.qvt-range-selection .range-horizontal .far-edge.active,
+.qvt-range-selection .range-vertical .near-edge:hover,
+.qvt-range-selection .range-horizontal .near-edge:hover,
+.qvt-range-selection .range-vertical .far-edge:hover,
+.qvt-range-selection .range-horizontal .far-edge:hover {
+    border-color: var(--rangeslider);
+}
+
+
+/* End Range Slider Style */
+
+
+/* Table Style */
+
+
+/* .qv-object-content-container .qv-object-content table tr:nth-of-type(even) {
+    background: var(--background);
+} */
+
+
+/* .qv-st-header-cell-search {
+    background-color: var(--grid-background);
+}
+
+.qv-st-header-cell-search .lui-icon--search::before {
+    color: var(--gray) !important;
+} */
+
+.null-value,
+.qv-st-data-cell-null-value {
+    background-color: var(--grid-background) !important;
+}
+
+.qv-st-header-wrapper div.qv-st-header table tbody tr:nth-child(1) span,
+.qv-st-header-cell-wrapper .qv-st-value .qv-st-value-overflow {
+    text-align: center;
+}
+
+
+/* .qv-pt table tr:nth-child(-n+2),
+.qv-pt table tr:nth-child(-n + 2):hover,
+.qv-st-header-wrapper div.qv-st-header table tbody tr:nth-child(-n + 2) {
+    color: var(--gray-dark) !important;
+    background-color: var(--grid-background) !important;
+    background-image: linear-gradient(to bottom, var(--grid-background), var(--gray-dark));
+    border-color: #434F5C !important;
+    transition: box-shadow 200ms ease-out;
+} */
+
+
+/* End Table Style */
+
+
+/* Pivot Table Style */
+
+.qv-pt .lui-button {
+    color: var(--gray) !important;
+    background-color: var(--grid-background) !important;
+    /* color: var(--gray-dark) !important; */
+}
+
+
+/* .qv-pt .lui-button .lui-caret {
+    color: var(--gray);
+} */
+
+
+/* End Pivot Table Style */
+
+
+/* .qv-pt .cell.header.top,
+.qv-st-header-wrapper .qv-st-header * {
+    font-weight: bold !important;
+}
+
+.qv-grid-object-scroll-area table tbody tr.qv-st-data-row,
+.qv-grid-object-scroll-area table tbody .qv-st-data-cell-null-value,
+.qv-grid-object-scroll-area table tbody .null-value {
+    background-color: var(--grid-background);
+    color: var(--gray-dark);
+}
+
+.qv-pt tr:hover,
+.qv-st table tr:hover,
+.qv-pt table tbody tr:hover {
+    background-color: var(--gray-dark) !important;
+    color: var(--grid-background) !important;
+} */
