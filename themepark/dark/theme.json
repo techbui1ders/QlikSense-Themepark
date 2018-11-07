@@ -1,623 +1,203 @@
 {
-    "_inherit": true,
+    "_inherit": false,
+    "_variables": {
+        "@TitleSize": "16px",
+        "@TitleColor": "#98A6AD",
+        "@SubtitleTextSize": "14px",
+        "@SubtitleColor": "#98A6AD",
+        "@TextSize": "12px",
+        "@TextColor": "#98A6AD",
+        "@FooterTextSize": "10px",
+        "@FooterColor": "#98A6AD",
+        "@GridColor": "#36404A",
+        "@Background.color": "#36404A",
+        "@Object.title.color": "#98A6AD",
+        "@Object.title.size": "12px",
+        "@Object.axis.line.color": "#36404A",
+        "@Colors.primary": "#01b8aa",
+        "@Colors.others": "#EEEEEE",
+        "@Colors.error": "#bb4a4a",
+        "@Colors.null": "#CCCCCC"
+    },
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "gridColor": "@GridColor",
+    "backgroundColor": "@Background.color",
+    "customStyles": [{
+        "cssRef": "theme.css",
+        "classRef": "sense-theme"
+    }],
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleTextSize"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterTextSize"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "value": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@Object.title.color",
+                "fontSize": "@Object.title.size"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "line": {
+                "major": {
+                    "color": "@Object.axis.line.color"
+                },
+                "minor": {
+                    "color": "@Object.axis.line.color"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "@Object.axis.line.color"
+                },
+                "major": {
+                    "color": "@Object.axis.line.color"
+                },
+                "minor": {
+                    "color": "@Object.axis.line.color"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@Object.title.color",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "outOfBounds": {
+                "color": "@Object.title.color",
+                "backgroundColor": "@GridColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@Object.title.color",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@Object.title.color",
+                "fontSize": "@TextSize"
+            }
+        }
+    },
+    "dataColors": {
+        "primaryColor": "@Colors.primary",
+        "othersColor": "@Colors.others",
+        "errorColor": "@Colors.error",
+        "nullColor": "@Colors.null"
+    },
     "palettes": {
         "data": [{
-                "name": "Piratepal",
-                "translation": "Scuba (4)",
-                "propertyValue": "qual-yarr-scuba",
+                "name": "Dark",
+                "translation": "Morris (3)",
+                "propertyValue": "qual-morris",
                 "type": "row",
                 "scale": [
-                    "#0D4157",
-                    "#E9602C",
-                    "#A5DBEF",
-                    "#DDD9D7"
+                    "#3BAFDA",
+                    "#DCDCDC",
+                    "#80DEEA"
                 ]
-            },
-            {
-                "name": "Plotly",
-                "translation": "Hot (4)",
-                "propertyValue": "div-p-hot",
+            }, {
+                "name": "Dark",
+                "translation": "Flot (4)",
+                "propertyValue": "qual-flot",
                 "type": "row",
                 "scale": [
-                    "#000000",
-                    "#E60000",
-                    "#FFD200",
-                    "#FFFFFF"
+                    "#00B19D",
+                    "#80DEEA",
+                    "#26C6DA",
+                    "#3BAFDA"
                 ]
             },
             {
-                "name": "Piratepal",
-                "translation": "Google (4)",
-                "propertyValue": "qual-yarr-google",
+                "name": "Dark",
+                "translation": "Chartist (7)",
+                "propertyValue": "qual-chartist",
                 "type": "row",
                 "scale": [
-                    "#3D79F3",
-                    "#E6352F",
-                    "#F9B90A",
-                    "#34A74B"
-
+                    "#3DDCF7",
+                    "#00B19D",
+                    "#F76397",
+                    "#3BAFDA",
+                    "#FFAA00",
+                    "#7266BA",
+                    "#797979"
                 ]
             },
             {
-                "name": "Piratepal",
-                "translation": "compote (4)",
-                "propertyValue": "qual-yarr-compote",
+                "name": "Dark",
+                "translation": "Nvd3 (8)",
+                "propertyValue": "qual-nvd3",
                 "type": "row",
                 "scale": [
-                    "#893E56",
-                    "#4E5A83",
-                    "#BBACD1",
-                    "#E1E1E1"
+                    "#00B19D",
+                    "#EF5350",
+                    "#3DDCF7",
+                    "#FFAA00",
+                    "#81C868",
+                    "#DCDCDC",
+                    "#333333",
+                    "#3BAFDA"
                 ]
             },
             {
-                "name": "Piratepal",
-                "translation": "fall (4)",
-                "propertyValue": "qual-yarr-fall",
+                "name": "Dark",
+                "translation": "Chartjs (9)",
+                "propertyValue": "qual-chartjs",
                 "type": "row",
                 "scale": [
-                    "#433C4D",
-                    "#7C1939",
-                    "#F2BC20",
-                    "#9ACDF7"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Pebble (4)",
-                "propertyValue": "qual-yarr-pebble",
-                "type": "row",
-                "scale": [
-                    "#3A3540",
-                    "#897A87",
-                    "#D6BBA6",
-                    "#F0E4E8"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Scholar (4)",
-                "propertyValue": "qual-yarr-scholar",
-                "type": "row",
-                "scale": [
-                    "#2B3E56",
-                    "#CDA725",
-                    "#C5CBD3",
-                    "#F1F1E7"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Espresso (5)",
-                "propertyValue": "qual-yarr-espresso",
-                "type": "row",
-                "scale": [
-                    "#2366C0",
-                    "#E9D738",
-                    "#B91226",
-                    "#A3DA4B",
-                    "#FF6435"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Brave (5)",
-                "propertyValue": "qual-yarr-brave",
-                "type": "row",
-                "scale": [
-                    "#A8643B",
-                    "#B65B23",
-                    "#94220E",
-                    "#272D17",
-                    "#202126"
-
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Bugs (5)",
-                "propertyValue": "qual-yarr-bugs",
-                "type": "row",
-                "scale": [
-                    "#667840",
-                    "#BAD6A8",
-                    "#85C7C1",
-                    "#A59A6B",
-                    "#67553F"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Cars (5)",
-                "propertyValue": "qual-yarr-cars",
-                "type": "row",
-                "scale": [
-                    "#E7B08F",
-                    "#884C49",
-                    "#E0363A",
-                    "#6A1D1A",
-                    "#9DDAE6"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Nemo (5)",
-                "propertyValue": "qual-yarr-nemo",
-                "type": "row",
-                "scale": [
-                    "#FBCF35",
-                    "#ED4C1C",
-                    "#9C7E70",
-                    "#5AC2F1",
-                    "#11776C"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Rat (5)",
-                "propertyValue": "qual-yarr-rat",
-                "type": "row",
-                "scale": [
-                    "#9F4D23",
-                    "#922B49",
-                    "#B21D13",
-                    "#7F8624",
-                    "#F19C1F"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Up (5)",
-                "propertyValue": "qual-yarr-up",
-                "type": "row",
-                "scale": [
-                    "#5F8CF4",
-                    "#DCD6FC",
-                    "#E27A48",
-                    "#605646",
-                    "#434159"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Emo (5)",
-                "propertyValue": "qual-yarr-emo",
-                "type": "row",
-                "scale": [
-                    "#556270",
-                    "#4ECDC4",
-                    "#C7F464",
-                    "#FF6B6B",
-                    "#C44D58"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Pancake (5)",
-                "propertyValue": "qual-yarr-pancake",
-                "type": "row",
-                "scale": [
-                    "#594F4F",
-                    "#547980",
-                    "#45ADA8",
-                    "#9DE0AD",
-                    "#E5FCC2"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Lubitel (5)",
-                "propertyValue": "qual-yarr-lubitel",
-                "type": "row",
-                "scale": [
-                    "#373A45",
-                    "#C2C2C2",
-                    "#B3986D",
-                    "#78241D",
-                    "#5E3E35"
-                ]
-            },
-            {
-                "name": "Plotly",
-                "translation": "Portland (5)",
-                "propertyValue": "div-p-portland",
-                "type": "row",
-                "scale": [
-                    "#0C3383",
-                    "#0A88BA",
-                    "#F2D338",
-                    "#F28F38",
-                    "#D91E1E"
-                ]
-            },
-            {
-                "name": "Plotly",
-                "translation": "Blackbody (5)",
-                "propertyValue": "div-p-blackbody",
-                "type": "row",
-                "scale": [
-                    "#000000",
-                    "#E60000",
-                    "#E6D200",
-                    "#FFFFFF",
-                    "#A0C8FF"
-                ]
-            },
-            {
-                "name": "Plotly",
-                "translation": "Jet (6)",
-                "propertyValue": "div-p-jet",
-                "type": "row",
-                "scale": [
-                    "#000083",
-                    "#003CAA",
-                    "#05FFFF",
-                    "#FFFF00",
-                    "#FA0000",
-                    "#800000"
-                ]
-            },
-            {
-                "name": "Plotly",
-                "translation": "Earth (6)",
-                "propertyValue": "div-p-earth",
-                "type": "row",
-                "scale": [
-                    "#000082",
-                    "#00B4B4",
-                    "#28D228",
-                    "#E6E632",
-                    "#784614",
-                    "#FFFFFF"
-                ]
-            },
-            {
-                "name": "Plotly",
-                "translation": "Electric (6)",
-                "propertyValue": "div-p-electric",
-                "type": "row",
-                "scale": [
-                    "#000000",
-                    "#1E0064",
-                    "#780064",
-                    "#A05A00",
-                    "#E6C800",
-                    "#FFFADC"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Decision (6)",
-                "propertyValue": "qual-yarr-decision",
-                "type": "row",
-                "scale": [
-                    "#D57A6D",
-                    "#E8B762",
-                    "#9CCDDF",
-                    "#525052",
-                    "#E6CEAF",
-                    "#BA9570"
-
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "SouthPark (6)",
-                "propertyValue": "qual-yarr-southpark",
-                "type": "row",
-                "scale": [
-                    "#2F86FF",
-                    "#EBAB16",
-                    "#DE0012",
-                    "#22C408",
-                    "#FECDAA",
-                    "#F14809"
-
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "EvilDead (6)",
-                "propertyValue": "qual-yarr-evildead",
-                "type": "row",
-                "scale": [
-                    "#19180D",
-                    "#212510",
-                    "#2E100B",
-                    "#392E12",
-                    "#57512B",
-                    "#968E4C"
-
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "AppleTV (6)",
-                "propertyValue": "qual-yarr-appletv",
-                "type": "row",
-                "scale": [
-                    "#5FB233",
-                    "#6A7F93",
-                    "#F57206",
-                    "#EB0F13",
-                    "#8F2F8B",
-                    "#1396DB"
-
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "UsualSuspects (7)",
-                "propertyValue": "qual-yarr-usualsuspects",
-                "type": "row",
-                "scale": [
-                    "#323337",
-                    "#534C53",
-                    "#3F516A",
-                    "#9B6659",
-                    "#E83B41",
-                    "#9F9CA2",
-                    "#EAAE9D"
-
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "OhBrother (7)",
-                "propertyValue": "qual-yarr-ohbrother",
-                "type": "row",
-                "scale": [
-                    "#1A0F0A",
-                    "#3D291A",
-                    "#715639",
-                    "#747D6D",
-                    "#AD9D0B",
-                    "#94C4DF",
-                    "#E6DDA8"
-
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "iPod (7)",
-                "propertyValue": "qual-yarr-ipod",
-                "type": "row",
-                "scale": [
-                    "#D7D7D7",
-                    "#F3AEAF",
-                    "#AEADB0",
-                    "#9ED9BF",
-                    "#5CCBEB",
-                    "#DEEB61",
-                    "#F2F2F2"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Eternal (7)",
-                "propertyValue": "qual-yarr-eternal",
-                "type": "row",
-                "scale": [
-                    "#170C2E",
-                    "#751029",
-                    "#52194C",
-                    "#473B75",
-                    "#4D709C",
-                    "#6F766B",
-                    "#92ADC4"
-                ]
-            },
-            {
-                "name": "Colorbrewer",
-                "translation": "Accent (8)",
-                "propertyValue": "qual-cb-accent",
-                "type": "pyramid",
-                "scale": [
-                    ["#7fc97f", "#beaed4", "#fdc086"],
-                    ["#7fc97f", "#beaed4", "#fdc086", "#ffff99"],
-                    ["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0"],
-                    ["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0", "#f0027f"],
-                    ["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0", "#f0027f", "#bf5b17"],
-                    ["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0", "#f0027f", "#bf5b17", "#666666"]
-                ]
-            },
-            {
-                "name": "Colorbrewer",
-                "translation": "Dark2 (8)",
-                "propertyValue": "qual-cb-dark2",
-                "type": "pyramid",
-                "scale": [
-                    ["#1b9e77", "#d95f02", "#7570b3"],
-                    ["#1b9e77", "#d95f02", "#7570b3", "#e7298a"],
-                    ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e"],
-                    ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02"],
-                    ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d"],
-                    ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d", "#666666"]
-                ]
-            },
-            {
-                "name": "Colorbrewer",
-                "translation": "Pastel2 (8)",
-                "propertyValue": "qual-cb-pastel2",
-                "type": "pyramid",
-                "scale": [
-                    ["#b3e2cd", "#fdcdac", "#cbd5e8"],
-                    ["#b3e2cd", "#fdcdac", "#cbd5e8", "#f4cae4"],
-                    ["#b3e2cd", "#fdcdac", "#cbd5e8", "#f4cae4", "#e6f5c9"],
-                    ["#b3e2cd", "#fdcdac", "#cbd5e8", "#f4cae4", "#e6f5c9", "#fff2ae"],
-                    ["#b3e2cd", "#fdcdac", "#cbd5e8", "#f4cae4", "#e6f5c9", "#fff2ae", "#f1e2cc"],
-                    ["#b3e2cd", "#fdcdac", "#cbd5e8", "#f4cae4", "#e6f5c9", "#fff2ae", "#f1e2cc", "#cccccc"]
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "XMen (8)",
-                "propertyValue": "qual-yarr-xmen",
-                "type": "row",
-                "scale": [
-                    "#026CCB",
-                    "#F51E02",
-                    "#05B102",
-                    "#FB9F53",
-                    "#9B9B9B",
-                    "#FB82BE",
-                    "#BA6222",
-                    "#EEC229"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Pony (9)",
-                "propertyValue": "qual-yarr-pony",
-                "type": "row",
-                "scale": [
-                    "#EB5291",
-                    "#FBBB68",
-                    "#F5BACF",
-                    "#9DDAF5",
-                    "#6351A0",
-                    "#ECF1F4",
-                    "#FEF79E",
-                    "#1794CE",
-                    "#972C8D"
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Info (9)",
-                "propertyValue": "qual-yarr-info",
-                "type": "row",
-                "scale": [
-                    "#E7695D",
-                    "#6B8993",
-                    "#F6F0D4",
-                    "#95CE8A",
-                    "#D2D2D2",
-                    "#94D4D4",
-                    "#969696",
-                    "#F1F3E8",
-                    "#88775F"
-                ]
-            },
-            {
-                "name": "Set1",
-                "translation": "Set1 (9)",
-                "propertyValue": "qual-set1",
-                "type": "pyramid",
-                "scale": [
-                    ["#e41a1c", "#377eb8", "#4daf4a"],
-                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3"],
-                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00"],
-                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33"],
-                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628"],
-                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628", "#f781bf"],
-                    ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628", "#f781bf", "#999999"]
-                ]
-            },
-            {
-                "name": "Colorbrewer",
-                "translation": "Pastel1 (9)",
-                "propertyValue": "qual-cb-pastel1",
-                "type": "pyramid",
-                "scale": [
-                    ["#fbb4ae", "#b3cde3", "#ccebc5"],
-                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4"],
-                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6"],
-                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc"],
-                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc", "#e5d8bd"],
-                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc", "#e5d8bd", "#fddaec"],
-                    ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc", "#e5d8bd", "#fddaec", "#f2f2f2"]
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Basel (10)",
-                "propertyValue": "qual-yarr-basel",
-                "type": "row",
-                "scale": [
-                    "#0C5BB0",
-                    "#EE0011",
-                    "#15983D",
-                    "#EC579A",
-                    "#FA6B09",
-                    "#149BED",
-                    "#A1C720",
-                    "#FEC10B",
-                    "#16A08C",
-                    "#9A703E"
-                ]
-            },
-            {
-                "name": "Colorbrewer",
-                "translation": "Paired (12)",
-                "propertyValue": "qual-cb-paired",
-                "type": "pyramid",
-                "scale": [
-                    ["#a6cee3", "#1f78b4", "#b2df8a"],
-                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c"],
-                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99"],
-                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c"],
-                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f"],
-                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00"],
-                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6"],
-                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a"],
-                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#ffff99"],
-                    ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#ffff99", "#b15928"]
-                ]
-            },
-            {
-                "name": "Piratepal",
-                "translation": "Info2 (14)",
-                "propertyValue": "qual-yarr-info2",
-                "type": "row",
-                "scale": [
-                    "#006A40",
-                    "#F08892",
-                    "#75B41E",
-                    "#95828D",
-                    "#708C98",
-                    "#8AB8CF",
-                    "#007E7F",
-                    "#358359",
-                    "#8BA1BC",
-                    "#5A5895",
-                    "#F2990C",
-                    "#5A5895",
-                    "#E5BA3A",
-                    "#D86C4F"
+                    "#EF5350",
+                    "#52BB56",
+                    "#F1B53D",
+                    "#039CFD",
+                    "#67D1F8",
+                    "#7266BA",
+                    "#F76397",
+                    "#EEEEEE",
+                    "#5FBEAA"
                 ]
             }
         ],
         "ui": [{
-            "name": "Palette",
+            "name": "Dark",
             "colors": [
-                "#ffffff",
-                "#46c646",
-                "#276e27",
-                "#b6d7ea",
-                "#7db8da",
-                "#4477aa",
-                "#8e477d",
-                "#ffcf02",
-                "#f8981d",
-                "#f93f17",
-                "#633d0c",
-                "#b0afae",
-                "#7b7a78",
-                "#545352",
-                "#000000",
-                "#a54343",
-                "#d76c6c",
-                "#ec983d",
-                "#ecc43d",
-                "#f9ec86",
-                "#cbe989",
-                "#70ba6e",
-                "#578b60",
-                "#79d69f",
-                "#26a0a7",
-                "#138185",
-                "#65d3da"
+                "#323B44",
+                "#36404A",
+                "#98A6AD",
+                "#3DDCF7",
+                "#00B19D",
+                "#F76397",
+                "#3BAFDA",
+                "#FFAA00",
+                "#7266BA",
+                "#797979"
             ]
         }]
     },
@@ -1046,6 +626,21 @@
                 "#FFAA00",
                 "#7266BA",
                 "#797979"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Power BI (7)",
+            "propertyValue": "qual-powerbi",
+            "type": "class",
+            "scale": [
+                "#01b8aa",
+                "#fd625e",
+                "#f2c80f",
+                "#5f6b6d",
+                "#8ad4eb",
+                "#fe9666",
+                "#a66999"
             ]
         }
     ]

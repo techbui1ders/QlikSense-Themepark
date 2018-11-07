@@ -20,11 +20,13 @@ After you have selected your theme. Select your view or report and the theme wil
 This will be an ever expanding number of themes. More to come!
 
 1. Colorpack - Contains the default Qlik styles and only integrates the color palettes.
-2. Power BI
+2. Dark (NEW)
+![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/dark.PNG)
+3. Power BI
 ![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/powerbi.PNG)
-3. QlikView
+4. QlikView
 ![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/qlikview.PNG)
-4. Tableau (NEW)
+5. Tableau
 ![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/tableau.PNG)
 
 ## Color Palettes
