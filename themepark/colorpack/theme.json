@@ -2,6 +2,29 @@
     "_inherit": true,
     "palettes": {
         "data": [{
+                "name": "Dark",
+                "translation": "Morris (3)",
+                "propertyValue": "qual-morris",
+                "type": "row",
+                "scale": [
+                    "#3BAFDA",
+                    "#DCDCDC",
+                    "#80DEEA"
+                ]
+            },
+            {
+                "name": "Dark",
+                "translation": "Flot (4)",
+                "propertyValue": "qual-flot",
+                "type": "row",
+                "scale": [
+                    "#00B19D",
+                    "#80DEEA",
+                    "#26C6DA",
+                    "#3BAFDA"
+                ]
+            },
+            {
                 "name": "Piratepal",
                 "translation": "Scuba (4)",
                 "propertyValue": "qual-yarr-scuba",
@@ -408,6 +431,37 @@
                 ]
             },
             {
+                "name": "Dark",
+                "translation": "Chartist (7)",
+                "propertyValue": "qual-chartist",
+                "type": "row",
+                "scale": [
+                    "#3DDCF7",
+                    "#00B19D",
+                    "#F76397",
+                    "#3BAFDA",
+                    "#FFAA00",
+                    "#7266BA",
+                    "#797979"
+                ]
+            },
+            {
+                "name": "Dark",
+                "translation": "Nvd3 (8)",
+                "propertyValue": "qual-nvd3",
+                "type": "row",
+                "scale": [
+                    "#00B19D",
+                    "#EF5350",
+                    "#3DDCF7",
+                    "#FFAA00",
+                    "#81C868",
+                    "#DCDCDC",
+                    "#333333",
+                    "#3BAFDA"
+                ]
+            },
+            {
                 "name": "Colorbrewer",
                 "translation": "Accent (8)",
                 "propertyValue": "qual-cb-accent",
@@ -463,6 +517,23 @@
                     "#FB82BE",
                     "#BA6222",
                     "#EEC229"
+                ]
+            },
+            {
+                "name": "Dark",
+                "translation": "Chartjs (9)",
+                "propertyValue": "qual-chartjs",
+                "type": "row",
+                "scale": [
+                    "#EF5350",
+                    "#52BB56",
+                    "#F1B53D",
+                    "#039CFD",
+                    "#67D1F8",
+                    "#7266BA",
+                    "#F76397",
+                    "#EEEEEE",
+                    "#5FBEAA"
                 ]
             },
             {
@@ -548,6 +619,42 @@
                 ]
             },
             {
+                "name": "Tableau",
+                "translation": "Color Blind (10)",
+                "propertyValue": "qual-colorblind",
+                "type": "row",
+                "scale": [
+                    "#1170AA",
+                    "#FC7D0B",
+                    "#A3ACB9",
+                    "#57606C",
+                    "#5FA2CE",
+                    "#C85200",
+                    "#7B848F",
+                    "#A3CCE9",
+                    "#FFBC79",
+                    "#C8D0D9"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Superfishel Stone (10)",
+                "propertyValue": "qual-superfishel",
+                "type": "row",
+                "scale": [
+                    "#6388B4",
+                    "#FFAE34",
+                    "#EF6F6A",
+                    "#8CC2CA",
+                    "#55AD89",
+                    "#C3BC3F",
+                    "#BB7693",
+                    "#BAA094",
+                    "#A9B5AE",
+                    "#767676"
+                ]
+            },
+            {
                 "name": "Colorbrewer",
                 "translation": "Paired (12)",
                 "propertyValue": "qual-cb-paired",
@@ -585,6 +692,66 @@
                     "#5A5895",
                     "#E5BA3A",
                     "#D86C4F"
+                ]
+            },
+            {
+                "name": "Tableau",
+                "translation": "Tableau (20)",
+                "propertyValue": "qual-20",
+                "type": "row",
+                "scale": [
+                    "#4E79A7",
+                    "#A0CBE8",
+                    "#F28E2B",
+                    "#FFBE7D",
+                    "#59A14F",
+                    "#8CD17D",
+                    "#B6992D",
+                    "#F1CE63",
+                    "#499894",
+                    "#86BCB6",
+                    "#E15759",
+                    "#FF9D9A",
+                    "#79706E",
+                    "#BAB0AC",
+                    "#D37295",
+                    "#FABFD2",
+                    "#B07AA1",
+                    "#D4A6C8",
+                    "#9D7660",
+                    "#D7B5A6"
+                ]
+            },
+            {
+                "name": "Power BI",
+                "translation": "Power BI (25)",
+                "propertyValue": "qual-powerbi",
+                "type": "row",
+                "scale": [
+                    "#01b8aa",
+                    "#374649",
+                    "#fd625e",
+                    "#f2c80f",
+                    "#5f6b6d",
+                    "#8ad4eb",
+                    "#fe9666",
+                    "#a66999",
+                    "#3599b8",
+                    "#dfbfbf",
+                    "#4ac5bb",
+                    "#fb8281",
+                    "#f4d25a",
+                    "#7f898a",
+                    "#a4ddee",
+                    "#fdab89",
+                    "#b687ac",
+                    "#28738a",
+                    "#a78f8f",
+                    "#168980",
+                    "#293537",
+                    "#bb4a4a",
+                    "#b59525",
+                    "#475052"
                 ]
             }
         ],
@@ -1046,6 +1213,21 @@
                 "#FFAA00",
                 "#7266BA",
                 "#797979"
+            ]
+        },
+        {
+            "name": "Power BI",
+            "translation": "Power BI (7)",
+            "propertyValue": "qual-powerbi",
+            "type": "class",
+            "scale": [
+                "#01b8aa",
+                "#fd625e",
+                "#f2c80f",
+                "#5f6b6d",
+                "#8ad4eb",
+                "#fe9666",
+                "#a66999"
             ]
         }
     ]

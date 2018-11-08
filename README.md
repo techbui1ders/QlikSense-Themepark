@@ -1,5 +1,5 @@
 # Qlik Sense Themepark
-A Qlik Sense extension that integrates over 80 color palettes and 4 themes to get the most out of your data and dashboards.
+A Qlik Sense extension that integrates over 80 color palettes and 5 themes to get the most out of your data and dashboards.
 
 
 ## Installation
@@ -30,11 +30,11 @@ This will be an ever expanding number of themes. More to come!
 ![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/tableau.PNG)
 
 ## Color Palettes
-Qualitative (41 palettes)
+Qualitative (50 palettes)
 
 ![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/dimension.png)
 
-Sequential, Diverging, Perceptual (44)
+Sequential, Diverging, Perceptual (49)
 
 ![Screenshot](https://raw.githubusercontent.com/techbui1ders/QlikSense-themepark/master/img/measure.png)
 
